@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import OMDbAPIData from './services/OMDbAPIData/omdbapidata';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <OMDbAPIData search={'ron burgundy'}/>
     </div>
   );
 }

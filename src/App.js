@@ -4,7 +4,7 @@ import recommendations from './services/recommendations/recommendations';
 
 function App() {
     const movieName = recommendations();
-    console.log(movieName.name);
+    //console.log(movieName.name);
     return (
         <div className='App'>
             <header className='App-header'>

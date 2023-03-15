@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import recommendations from './services/recommendations';
+import recommendations from './services/recommendations/recommendations';
 
 function App() {
     const movieName = recommendations();

@@ -1,10 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import recommendations from './services/recommendations/recommendations';
+import Test from './components/Test';
 
 function App() {
-    const movieName = recommendations();
-    //console.log(movieName.name);
     return (
         <div className='App'>
             <header className='App-header'>
@@ -19,7 +17,7 @@ function App() {
                     rel='noopener noreferrer'
                 >
                     Learn React
-                    <p>{movieName.name}</p>
+                    <Test />
                 </a>
             </header>
         </div>

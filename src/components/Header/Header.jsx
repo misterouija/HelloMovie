@@ -72,15 +72,6 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-
-            <p className='mt-4'>Scroll down</p>
-            <p>Scroll down</p>
-            <p>Scroll down</p>
-            <p>Scroll down</p>
-            <p>Scroll down</p>
-            <p>Scroll down</p>
-            <p>Scroll down</p>
-            <p>Scroll down</p>
         </header>
     );
 }

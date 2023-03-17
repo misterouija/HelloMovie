@@ -1,0 +1,2280 @@
+{
+  "queryString": "?genres=action,adventure",
+  "results": [
+    {
+      "id": "tt3581920",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Last of Us",
+      "description": "(2023– )",
+      "runtimeStr": "50 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "9.0",
+      "imDbRatingVotes": "298064",
+      "metacriticRating": null,
+      "plot": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
+      "stars": "Pedro Pascal, Bella Ramsey, Anna Torv, Lamar Johnson",
+      "starList": [
+        {
+          "id": "tt3581920",
+          "name": "Pedro Pascal"
+        },
+        {
+          "id": "tt3581920",
+          "name": "Bella Ramsey"
+        },
+        {
+          "id": "tt3581920",
+          "name": "Anna Torv"
+        },
+        {
+          "id": "tt3581920",
+          "name": "Lamar Johnson"
+        }
+      ]
+    },
+    {
+      "id": "tt8111088",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjRlZDIyNDMtZjIwYi00YmJiLTg4NjMtODA2Mjc0YTBlNzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Mandalorian",
+      "description": "(2019– )",
+      "runtimeStr": "40 min",
+      "genres": "Action, Adventure, Fantasy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Fantasy",
+          "value": "Fantasy"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.7",
+      "imDbRatingVotes": "511006",
+      "metacriticRating": null,
+      "plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+      "stars": "Pedro Pascal, Carl Weathers, Chris Bartlett, Leilani Shiu",
+      "starList": [
+        {
+          "id": "tt8111088",
+          "name": "Pedro Pascal"
+        },
+        {
+          "id": "tt8111088",
+          "name": "Carl Weathers"
+        },
+        {
+          "id": "tt8111088",
+          "name": "Chris Bartlett"
+        },
+        {
+          "id": "tt8111088",
+          "name": "Leilani Shiu"
+        }
+      ]
+    },
+    {
+      "id": "tt2560140",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00OGQ4LWE3OGYtNDdiMzNiNDZlMDAwXkEyXkFqcGdeQXVyNzI3NjY3NjQ@._V1_Ratio0.7449_AL_.jpg",
+      "title": "Attack on Titan",
+      "description": "(2013–2023)",
+      "runtimeStr": "24 min",
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        {
+          "key": "Animation",
+          "value": "Animation"
+        },
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "9.0",
+      "imDbRatingVotes": "397259",
+      "metacriticRating": null,
+      "plot": "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+      "stars": "Josh Grelle, Yûki Kaji, Yui Ishikawa, Marina Inoue",
+      "starList": [
+        {
+          "id": "tt2560140",
+          "name": "Josh Grelle"
+        },
+        {
+          "id": "tt2560140",
+          "name": "Yûki Kaji"
+        },
+        {
+          "id": "tt2560140",
+          "name": "Yui Ishikawa"
+        },
+        {
+          "id": "tt2560140",
+          "name": "Marina Inoue"
+        }
+      ]
+    },
+    {
+      "id": "tt6710474",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTdiOTIyZTQtNmQ1OS00NjZlLWIyMTgtYzk5Y2M3ZDVmMDk1XkEyXkFqcGdeQXVyMTAzMDg4NzU0._V1_Ratio0.6837_AL_.jpg",
+      "title": "Everything Everywhere All at Once",
+      "description": "(2022)",
+      "runtimeStr": "139 min",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Comedy",
+          "value": "Comedy"
+        }
+      ],
+      "contentRating": "R",
+      "imDbRating": "7.9",
+      "imDbRatingVotes": "369564",
+      "metacriticRating": "81",
+      "plot": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+      "stars": "Daniel Kwan, Daniel Scheinert, Michelle Yeoh, Stephanie Hsu, Jamie Lee Curtis, Ke Huy Quan",
+      "starList": [
+        {
+          "id": "tt6710474",
+          "name": "Daniel Kwan"
+        },
+        {
+          "id": "tt6710474",
+          "name": "Daniel Scheinert"
+        },
+        {
+          "id": "tt6710474",
+          "name": "Michelle Yeoh"
+        },
+        {
+          "id": "tt6710474",
+          "name": "Stephanie Hsu"
+        },
+        {
+          "id": "tt6710474",
+          "name": "Jamie Lee Curtis"
+        },
+        {
+          "id": "tt6710474",
+          "name": "Ke Huy Quan"
+        }
+      ]
+    },
+    {
+      "id": "tt15326988",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGMzYWZlYmYtNTcyMC00ZGVjLThjN2ItMjY4MjkwN2NlMjYwXkEyXkFqcGdeQXVyOTU0NjY1MDM@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Ghosted",
+      "description": "(2023)",
+      "runtimeStr": null,
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Comedy",
+          "value": "Comedy"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt8589698",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDAwNjBiZGQtNWI2My00OTcxLWIxMWMtMDg0MzE5ZTc3NmEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+      "description": "(2023)",
+      "runtimeStr": null,
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        {
+          "key": "Animation",
+          "value": "Animation"
+        },
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        }
+      ],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt12261776",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzFhM2M1MDUtNDhmNC00YzEzLThiMzctYWYxZTc0MGJhNWYyXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio0.7857_AL_.jpg",
+      "title": "65",
+      "description": "(2023)",
+      "runtimeStr": "93 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "5.7",
+      "imDbRatingVotes": "5711",
+      "metacriticRating": "40",
+      "plot": "An astronaut crash lands on a mysterious planet only to discover he's not alone.",
+      "stars": "Scott Beck, Bryan Woods, Adam Driver, Ariana Greenblatt, Chloe Coleman, Nika King",
+      "starList": [
+        {
+          "id": "tt12261776",
+          "name": "Scott Beck"
+        },
+        {
+          "id": "tt12261776",
+          "name": "Bryan Woods"
+        },
+        {
+          "id": "tt12261776",
+          "name": "Adam Driver"
+        },
+        {
+          "id": "tt12261776",
+          "name": "Ariana Greenblatt"
+        },
+        {
+          "id": "tt12261776",
+          "name": "Chloe Coleman"
+        },
+        {
+          "id": "tt12261776",
+          "name": "Nika King"
+        }
+      ]
+    },
+    {
+      "id": "tt10954600",
+      "image": "https://m.media-amazon.com/images/M/MV5BODZhNzlmOGItMWUyYS00Y2Q5LWFlNzMtM2I2NDFkM2ZkYmE1XkEyXkFqcGdeQXVyMTU5OTA4NTIz._V1_Ratio0.6837_AL_.jpg",
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "description": "(2023)",
+      "runtimeStr": "124 min",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Comedy",
+          "value": "Comedy"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "6.5",
+      "imDbRatingVotes": "86482",
+      "metacriticRating": "48",
+      "plot": "Scott Lang and Hope Van Dyne, along with Hank Pym and Janet Van Dyne, explore the Quantum Realm, where they interact with strange creatures and embark on an adventure that goes beyond the limits of what they thought was possible.",
+      "stars": "Peyton Reed, Paul Rudd, Evangeline Lilly, Michael Douglas, Michelle Pfeiffer",
+      "starList": [
+        {
+          "id": "tt10954600",
+          "name": "Peyton Reed"
+        },
+        {
+          "id": "tt10954600",
+          "name": "Paul Rudd"
+        },
+        {
+          "id": "tt10954600",
+          "name": "Evangeline Lilly"
+        },
+        {
+          "id": "tt10954600",
+          "name": "Michael Douglas"
+        },
+        {
+          "id": "tt10954600",
+          "name": "Michelle Pfeiffer"
+        }
+      ]
+    },
+    {
+      "id": "tt8806524",
+      "image": "https://m.media-amazon.com/images/M/MV5BYzRjZWQ5YzAtY2Q1Ny00MmY0LWFmMmItNjEzNGEwNDdjYWExXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.6837_AL_.jpg",
+      "title": "Star Trek: Picard",
+      "description": "(2020–2023)",
+      "runtimeStr": "46 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "7.3",
+      "imDbRatingVotes": "77485",
+      "metacriticRating": null,
+      "plot": "Follow-up series to Star Trek: The Next Generation (1987) and Star Trek: Nemesis (2002) that centers on Jean-Luc Picard in the next chapter of his life.",
+      "stars": "Patrick Stewart, Michelle Hurd, Jeri Ryan, Alison Pill",
+      "starList": [
+        {
+          "id": "tt8806524",
+          "name": "Patrick Stewart"
+        },
+        {
+          "id": "tt8806524",
+          "name": "Michelle Hurd"
+        },
+        {
+          "id": "tt8806524",
+          "name": "Jeri Ryan"
+        },
+        {
+          "id": "tt8806524",
+          "name": "Alison Pill"
+        }
+      ]
+    },
+    {
+      "id": "tt0944947",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_Ratio0.7245_AL_.jpg",
+      "title": "Game of Thrones",
+      "description": "(2011–2019)",
+      "runtimeStr": "57 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "9.2",
+      "imDbRatingVotes": "2137460",
+      "metacriticRating": null,
+      "plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+      "stars": "Emilia Clarke, Peter Dinklage, Kit Harington, Lena Headey",
+      "starList": [
+        {
+          "id": "tt0944947",
+          "name": "Emilia Clarke"
+        },
+        {
+          "id": "tt0944947",
+          "name": "Peter Dinklage"
+        },
+        {
+          "id": "tt0944947",
+          "name": "Kit Harington"
+        },
+        {
+          "id": "tt0944947",
+          "name": "Lena Headey"
+        }
+      ]
+    },
+    {
+      "id": "tt1630029",
+      "image": "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Avatar: The Way of Water",
+      "description": "(2022)",
+      "runtimeStr": "192 min",
+      "genres": "Action, Adventure, Fantasy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Fantasy",
+          "value": "Fantasy"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "7.8",
+      "imDbRatingVotes": "316554",
+      "metacriticRating": "67",
+      "plot": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+      "stars": "James Cameron, Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+      "starList": [
+        {
+          "id": "tt1630029",
+          "name": "James Cameron"
+        },
+        {
+          "id": "tt1630029",
+          "name": "Sam Worthington"
+        },
+        {
+          "id": "tt1630029",
+          "name": "Zoe Saldana"
+        },
+        {
+          "id": "tt1630029",
+          "name": "Sigourney Weaver"
+        },
+        {
+          "id": "tt1630029",
+          "name": "Stephen Lang"
+        }
+      ]
+    },
+    {
+      "id": "tt7380366",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjRkOWI3NzAtNzE1OC00YTAyLWJiZDgtZThiNjNlYzU2MzU2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.6837_AL_.jpg",
+      "title": "True Lies",
+      "description": "(2023– )",
+      "runtimeStr": null,
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Comedy",
+          "value": "Comedy"
+        }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "5.1",
+      "imDbRatingVotes": "1295",
+      "metacriticRating": null,
+      "plot": "An unfulfilled suburban housewife is shocked to discover that her bland and unremarkable computer consultant husband is a skilled international spy.",
+      "stars": "Ginger Gonzaga, Erica Hernandez, Steve Howey, Annabella Didion",
+      "starList": [
+        {
+          "id": "tt7380366",
+          "name": "Ginger Gonzaga"
+        },
+        {
+          "id": "tt7380366",
+          "name": "Erica Hernandez"
+        },
+        {
+          "id": "tt7380366",
+          "name": "Steve Howey"
+        },
+        {
+          "id": "tt7380366",
+          "name": "Annabella Didion"
+        }
+      ]
+    },
+    {
+      "id": "tt3107288",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjlkM2RjODgtNjRlYS00MDNjLTkxMzYtOWM4NjAwZTY2MjZiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio0.7857_AL_.jpg",
+      "title": "The Flash",
+      "description": "(2014–2023)",
+      "runtimeStr": "43 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "7.5",
+      "imDbRatingVotes": "351918",
+      "metacriticRating": null,
+      "plot": "After being struck by lightning, Barry Allen wakes up from his coma to discover he's been given the power of super speed, becoming the Flash, and fighting crime in Central City.",
+      "stars": "Grant Gustin, Candice Patton, Danielle Panabaker, Carlos Valdes",
+      "starList": [
+        {
+          "id": "tt3107288",
+          "name": "Grant Gustin"
+        },
+        {
+          "id": "tt3107288",
+          "name": "Candice Patton"
+        },
+        {
+          "id": "tt3107288",
+          "name": "Danielle Panabaker"
+        },
+        {
+          "id": "tt3107288",
+          "name": "Carlos Valdes"
+        }
+      ]
+    },
+    {
+      "id": "tt26537229",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDZiZTZhMzgtYTY0ZC00OGUyLWE2NzgtMmM4MjA1YjUxN2YyXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_Ratio0.6837_AL_.jpg",
+      "title": "Demon Slayer: Kimetsu No Yaiba - To the Swordsmith Village",
+      "description": "(2023)",
+      "runtimeStr": "110 min",
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        {
+          "key": "Animation",
+          "value": "Animation"
+        },
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        }
+      ],
+      "contentRating": "R",
+      "imDbRating": "6.6",
+      "imDbRatingVotes": "2106",
+      "metacriticRating": null,
+      "plot": "All the Upper Rank Demons assemble at the Infinity Castle after Upper Six Demons' defeat.",
+      "stars": "Haruo Sotozaki, Zach Aguilar, Laila Berzins, Kira Buckland, Reba Buhr",
+      "starList": [
+        {
+          "id": "tt26537229",
+          "name": "Haruo Sotozaki"
+        },
+        {
+          "id": "tt26537229",
+          "name": "Zach Aguilar"
+        },
+        {
+          "id": "tt26537229",
+          "name": "Laila Berzins"
+        },
+        {
+          "id": "tt26537229",
+          "name": "Kira Buckland"
+        },
+        {
+          "id": "tt26537229",
+          "name": "Reba Buhr"
+        }
+      ]
+    },
+    {
+      "id": "tt9114286",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Black Panther: Wakanda Forever",
+      "description": "(2022)",
+      "runtimeStr": "161 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "6.8",
+      "imDbRatingVotes": "240302",
+      "metacriticRating": "67",
+      "plot": "The people of Wakanda fight to protect their home from intervening world powers as they mourn the death of King T'Challa.",
+      "stars": "Ryan Coogler, Letitia Wright, Lupita Nyong'o, Danai Gurira, Winston Duke",
+      "starList": [
+        {
+          "id": "tt9114286",
+          "name": "Ryan Coogler"
+        },
+        {
+          "id": "tt9114286",
+          "name": "Letitia Wright"
+        },
+        {
+          "id": "tt9114286",
+          "name": "Lupita Nyong'o"
+        },
+        {
+          "id": "tt9114286",
+          "name": "Danai Gurira"
+        },
+        {
+          "id": "tt9114286",
+          "name": "Winston Duke"
+        }
+      ]
+    },
+    {
+      "id": "tt5635026",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzQ4ZDZlYWQtNzFiMi00ZWRmLTkxYTMtOGJhYzczMGE3YjAxXkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_Ratio0.6837_AL_.jpg",
+      "title": "Peter Pan & Wendy",
+      "description": "(2023)",
+      "runtimeStr": "106 min",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Comedy",
+          "value": "Comedy"
+        }
+      ],
+      "contentRating": "PG",
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt12708542",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGIwM2E2NzEtMjQzZC00M2FmLThhMDktZTRlMGYzZWZlZGYzXkEyXkFqcGdeQXVyMTQzNTA5MzYz._V1_Ratio0.6837_AL_.jpg",
+      "title": "Star Wars: The Bad Batch",
+      "description": "(2021– )",
+      "runtimeStr": null,
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        {
+          "key": "Animation",
+          "value": "Animation"
+        },
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "7.8",
+      "imDbRatingVotes": "39920",
+      "metacriticRating": null,
+      "plot": "The 'Bad Batch' of elite and experimental clones make their way through an ever-changing galaxy in the immediate aftermath of the Clone Wars.",
+      "stars": "Ming-Na Wen, Dee Bradley Baker, Michelle Ang, Noshir Dalal",
+      "starList": [
+        {
+          "id": "tt12708542",
+          "name": "Ming-Na Wen"
+        },
+        {
+          "id": "tt12708542",
+          "name": "Dee Bradley Baker"
+        },
+        {
+          "id": "tt12708542",
+          "name": "Michelle Ang"
+        },
+        {
+          "id": "tt12708542",
+          "name": "Noshir Dalal"
+        }
+      ]
+    },
+    {
+      "id": "tt9253284",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_Ratio0.6837_AL_.jpg",
+      "title": "Andor",
+      "description": "(2022– )",
+      "runtimeStr": "40 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.4",
+      "imDbRatingVotes": "126026",
+      "metacriticRating": null,
+      "plot": "Prequel series to Star Wars' 'Rogue One'. In an era filled with danger, deception and intrigue, Cassian will embark on the path that is destined to turn him into a Rebel hero.",
+      "stars": "Diego Luna, Kyle Soller, Stellan Skarsgård, Genevieve O'Reilly",
+      "starList": [
+        {
+          "id": "tt9253284",
+          "name": "Diego Luna"
+        },
+        {
+          "id": "tt9253284",
+          "name": "Kyle Soller"
+        },
+        {
+          "id": "tt9253284",
+          "name": "Stellan Skarsgård"
+        },
+        {
+          "id": "tt9253284",
+          "name": "Genevieve O'Reilly"
+        }
+      ]
+    },
+    {
+      "id": "tt11198330",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjBiOGIyY2YtOTA3OC00YzY1LThkYjktMGRkYTNhNTExY2I2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_Ratio0.6837_AL_.jpg",
+      "title": "House of the Dragon",
+      "description": "(2022– )",
+      "runtimeStr": null,
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.5",
+      "imDbRatingVotes": "317005",
+      "metacriticRating": null,
+      "plot": "An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.",
+      "stars": "Rhys Ifans, Matt Smith, Fabien Frankel, Graham McTavish",
+      "starList": [
+        {
+          "id": "tt11198330",
+          "name": "Rhys Ifans"
+        },
+        {
+          "id": "tt11198330",
+          "name": "Matt Smith"
+        },
+        {
+          "id": "tt11198330",
+          "name": "Fabien Frankel"
+        },
+        {
+          "id": "tt11198330",
+          "name": "Graham McTavish"
+        }
+      ]
+    },
+    {
+      "id": "tt10151854",
+      "image": "https://m.media-amazon.com/images/M/MV5BZTJkMTBjZWEtMzhhMy00MjlkLTkyNTYtNGZjNGM4Mjk5YTEyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_Ratio0.7857_AL_.jpg",
+      "title": "Shazam! Fury of the Gods",
+      "description": "(2023)",
+      "runtimeStr": "130 min",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Comedy",
+          "value": "Comedy"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "6.9",
+      "imDbRatingVotes": "126",
+      "metacriticRating": null,
+      "plot": "The film continues the story of teenage Billy Batson who, upon reciting the magic word \"SHAZAM!\" is transformed into his adult Super Hero alter ego, Shazam.",
+      "stars": "David F. Sandberg, Grace Caroline Currey, Zachary Levi, Helen Mirren, Rachel Zegler",
+      "starList": [
+        {
+          "id": "tt10151854",
+          "name": "David F. Sandberg"
+        },
+        {
+          "id": "tt10151854",
+          "name": "Grace Caroline Currey"
+        },
+        {
+          "id": "tt10151854",
+          "name": "Zachary Levi"
+        },
+        {
+          "id": "tt10151854",
+          "name": "Helen Mirren"
+        },
+        {
+          "id": "tt10151854",
+          "name": "Rachel Zegler"
+        }
+      ]
+    },
+    {
+      "id": "tt2906216",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjAyMGMwYTEtNDk4ZS00YmY0LThhZjUtOWI4ZjFmZmU4N2I3XkEyXkFqcGdeQXVyMTEyNzQ1MTk0._V1_Ratio0.6837_AL_.jpg",
+      "title": "Dungeons & Dragons: Honor Among Thieves",
+      "description": "(2023)",
+      "runtimeStr": "134 min",
+      "genres": "Action, Adventure, Fantasy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Fantasy",
+          "value": "Fantasy"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt1392170",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Hunger Games",
+      "description": "(2012)",
+      "runtimeStr": "142 min",
+      "genres": "Action, Adventure, Sci-Fi",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Sci-Fi",
+          "value": "Sci-Fi"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "7.2",
+      "imDbRatingVotes": "932333",
+      "metacriticRating": "68",
+      "plot": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
+      "stars": "Gary Ross, Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth, Stanley Tucci",
+      "starList": [
+        {
+          "id": "tt1392170",
+          "name": "Gary Ross"
+        },
+        {
+          "id": "tt1392170",
+          "name": "Jennifer Lawrence"
+        },
+        {
+          "id": "tt1392170",
+          "name": "Josh Hutcherson"
+        },
+        {
+          "id": "tt1392170",
+          "name": "Liam Hemsworth"
+        },
+        {
+          "id": "tt1392170",
+          "name": "Stanley Tucci"
+        }
+      ]
+    },
+    {
+      "id": "tt2403776",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTY0ZjliOGUtMDFiZS00YzcwLWFiZWYtMzg4MWZkMWIwYzYwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_Ratio0.6837_AL_.jpg",
+      "title": "Shadow and Bone",
+      "description": "(2021– )",
+      "runtimeStr": "60 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.6",
+      "imDbRatingVotes": "90993",
+      "metacriticRating": null,
+      "plot": "Dark forces conspire against orphan mapmaker Alina Starkov when she unleashes an extraordinary power that could change the fate of her war-torn world.",
+      "stars": "Jessie Mei Li, Ben Barnes, Archie Renaux, Freddy Carter",
+      "starList": [
+        {
+          "id": "tt2403776",
+          "name": "Jessie Mei Li"
+        },
+        {
+          "id": "tt2403776",
+          "name": "Ben Barnes"
+        },
+        {
+          "id": "tt2403776",
+          "name": "Archie Renaux"
+        },
+        {
+          "id": "tt2403776",
+          "name": "Freddy Carter"
+        }
+      ]
+    },
+    {
+      "id": "tt2306299",
+      "image": "https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Vikings",
+      "description": "(2013–2020)",
+      "runtimeStr": "44 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.5",
+      "imDbRatingVotes": "544907",
+      "metacriticRating": null,
+      "plot": "Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore--and raid--the distant shores across the ocean.",
+      "stars": "Katheryn Winnick, Gustaf Skarsgård, Alexander Ludwig, Georgia Hirst",
+      "starList": [
+        {
+          "id": "tt2306299",
+          "name": "Katheryn Winnick"
+        },
+        {
+          "id": "tt2306299",
+          "name": "Gustaf Skarsgård"
+        },
+        {
+          "id": "tt2306299",
+          "name": "Alexander Ludwig"
+        },
+        {
+          "id": "tt2306299",
+          "name": "Georgia Hirst"
+        }
+      ]
+    },
+    {
+      "id": "tt13668894",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjllZjE1MWEtYTJhZC00MWIyLTliMjEtYzM3ODc4YzQ2MjFlXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Book of Boba Fett",
+      "description": "(2021–2022)",
+      "runtimeStr": "38 min",
+      "genres": "Action, Adventure, Sci-Fi",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Sci-Fi",
+          "value": "Sci-Fi"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.3",
+      "imDbRatingVotes": "159891",
+      "metacriticRating": null,
+      "plot": "Bounty hunter Boba Fett and mercenary Fennec Shand navigate the underworld when they return to Tatooine to claim Jabba the Hutt's old turf.",
+      "stars": "Temuera Morrison, Ming-Na Wen, Frank Trigg, Collin Hymes",
+      "starList": [
+        {
+          "id": "tt13668894",
+          "name": "Temuera Morrison"
+        },
+        {
+          "id": "tt13668894",
+          "name": "Ming-Na Wen"
+        },
+        {
+          "id": "tt13668894",
+          "name": "Frank Trigg"
+        },
+        {
+          "id": "tt13668894",
+          "name": "Collin Hymes"
+        }
+      ]
+    },
+    {
+      "id": "tt0790736",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTM5OTYxNzE5N15BMl5BanBnXkFtZTcwMDU1MTQ4OQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "R.I.P.D.",
+      "description": "(2013)",
+      "runtimeStr": "96 min",
+      "genres": "Action, Adventure, Comedy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Comedy",
+          "value": "Comedy"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "5.6",
+      "imDbRatingVotes": "137856",
+      "metacriticRating": "25",
+      "plot": "A cop killed by his own partner joins RIPD, an afterlife law enforcement department working to apprehend various monsters disguised as humans living on earth, and gets paired up with a smart-mouthed veteran.",
+      "stars": "Robert Schwentke, Ryan Reynolds, Jeff Bridges, Mary-Louise Parker, Kevin Bacon",
+      "starList": [
+        {
+          "id": "tt0790736",
+          "name": "Robert Schwentke"
+        },
+        {
+          "id": "tt0790736",
+          "name": "Ryan Reynolds"
+        },
+        {
+          "id": "tt0790736",
+          "name": "Jeff Bridges"
+        },
+        {
+          "id": "tt0790736",
+          "name": "Mary-Louise Parker"
+        },
+        {
+          "id": "tt0790736",
+          "name": "Kevin Bacon"
+        }
+      ]
+    },
+    {
+      "id": "tt13980362",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGZhOTcwY2UtZjFlYS00N2E1LWFmNjgtZWU1NTExZmMzMjgwXkEyXkFqcGdeQXVyODIzMjE0NTc@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Wrong Side of the Tracks",
+      "description": "(2021– )",
+      "runtimeStr": "79 min",
+      "genres": "Action, Adventure, Crime",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Crime",
+          "value": "Crime"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "6.8",
+      "imDbRatingVotes": "2934",
+      "metacriticRating": null,
+      "plot": "When his teenage granddaughter falls victim to the drug dealers overtaking his neighborhood, a fed-up war veteran takes matters into his own hands.",
+      "stars": "Jose Coronado, Nona Sobo, Felipe Londoño, Laura Ramos",
+      "starList": [
+        {
+          "id": "tt13980362",
+          "name": "Jose Coronado"
+        },
+        {
+          "id": "tt13980362",
+          "name": "Nona Sobo"
+        },
+        {
+          "id": "tt13980362",
+          "name": "Felipe Londoño"
+        },
+        {
+          "id": "tt13980362",
+          "name": "Laura Ramos"
+        }
+      ]
+    },
+    {
+      "id": "tt2140553",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTkzMzk3MzYzMV5BMl5BanBnXkFtZTgwOTQzMDM2MTE@._V1_Ratio0.7245_AL_.jpg",
+      "title": "The Last of Us",
+      "description": "(2013 Video Game)",
+      "runtimeStr": null,
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "M",
+      "imDbRating": "9.7",
+      "imDbRatingVotes": "69082",
+      "metacriticRating": null,
+      "plot": "In a hostile, post-pandemic world, Joel and Ellie, brought together by desperate circumstances, must rely on each other to survive a brutal journey across what remains of the United States.",
+      "stars": "Neil Druckmann, Bruce Straley, Troy Baker, Ashley Johnson, Hana Hayes, Jeffrey Pierce",
+      "starList": [
+        {
+          "id": "tt2140553",
+          "name": "Neil Druckmann"
+        },
+        {
+          "id": "tt2140553",
+          "name": "Bruce Straley"
+        },
+        {
+          "id": "tt2140553",
+          "name": "Troy Baker"
+        },
+        {
+          "id": "tt2140553",
+          "name": "Ashley Johnson"
+        },
+        {
+          "id": "tt2140553",
+          "name": "Hana Hayes"
+        },
+        {
+          "id": "tt2140553",
+          "name": "Jeffrey Pierce"
+        }
+      ]
+    },
+    {
+      "id": "tt0388629",
+      "image": "https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "One Piece",
+      "description": "(1999– )",
+      "runtimeStr": "24 min",
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        {
+          "key": "Animation",
+          "value": "Animation"
+        },
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.9",
+      "imDbRatingVotes": "134082",
+      "metacriticRating": null,
+      "plot": "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named \"One Piece\".",
+      "stars": "Mayumi Tanaka, Laurent Vernin, Tony Beck, Akemi Okamura",
+      "starList": [
+        {
+          "id": "tt0388629",
+          "name": "Mayumi Tanaka"
+        },
+        {
+          "id": "tt0388629",
+          "name": "Laurent Vernin"
+        },
+        {
+          "id": "tt0388629",
+          "name": "Tony Beck"
+        },
+        {
+          "id": "tt0388629",
+          "name": "Akemi Okamura"
+        }
+      ]
+    },
+    {
+      "id": "tt5884796",
+      "image": "https://m.media-amazon.com/images/M/MV5BZDc4MzVkNzYtZTRiZC00ODYwLWJjZmMtMDIyNjQ1M2M1OGM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Plane",
+      "description": "(2023)",
+      "runtimeStr": "107 min",
+      "genres": "Action, Adventure, Thriller",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Thriller",
+          "value": "Thriller"
+        }
+      ],
+      "contentRating": "R",
+      "imDbRating": "6.5",
+      "imDbRatingVotes": "39202",
+      "metacriticRating": "62",
+      "plot": "A pilot finds himself caught in a war zone after he's forced to land his commercial aircraft during a terrible storm.",
+      "stars": "Jean-François Richet, Gerard Butler, Mike Colter, Tony Goldwyn, Yoson An",
+      "starList": [
+        {
+          "id": "tt5884796",
+          "name": "Jean-François Richet"
+        },
+        {
+          "id": "tt5884796",
+          "name": "Gerard Butler"
+        },
+        {
+          "id": "tt5884796",
+          "name": "Mike Colter"
+        },
+        {
+          "id": "tt5884796",
+          "name": "Tony Goldwyn"
+        },
+        {
+          "id": "tt5884796",
+          "name": "Yoson An"
+        }
+      ]
+    },
+    {
+      "id": "tt0092455",
+      "image": "https://m.media-amazon.com/images/M/MV5BOWFhYjE4NzMtOWJmZi00NzEyLTg5NTctYmIxMTU1ZDIxMDAyXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_Ratio0.7041_AL_.jpg",
+      "title": "Star Trek: The Next Generation",
+      "description": "(1987–1994)",
+      "runtimeStr": "44 min",
+      "genres": "Action, Adventure, Sci-Fi",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Sci-Fi",
+          "value": "Sci-Fi"
+        }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "8.7",
+      "imDbRatingVotes": "124629",
+      "metacriticRating": null,
+      "plot": "Set almost 100 years after Captain Kirk's 5-year mission, a new generation of Starfleet officers sets off in the U.S.S. Enterprise-D on its own mission to go where no one has gone before.",
+      "stars": "Patrick Stewart, Brent Spiner, Jonathan Frakes, LeVar Burton",
+      "starList": [
+        {
+          "id": "tt0092455",
+          "name": "Patrick Stewart"
+        },
+        {
+          "id": "tt0092455",
+          "name": "Brent Spiner"
+        },
+        {
+          "id": "tt0092455",
+          "name": "Jonathan Frakes"
+        },
+        {
+          "id": "tt0092455",
+          "name": "LeVar Burton"
+        }
+      ]
+    },
+    {
+      "id": "tt0439572",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDFhZTc3NWQtY2UyZS00OGYzLTgxNTUtYjYxMjZjMmEyMjcwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Flash",
+      "description": "(2023)",
+      "runtimeStr": null,
+      "genres": "Action, Adventure, Fantasy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Fantasy",
+          "value": "Fantasy"
+        }
+      ],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt9335498",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTIxNjk3YjItYmYzMC00ZTdmLTk0NGUtZmNlZTA0NWFkZDMwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "description": "(2019– )",
+      "runtimeStr": "24 min",
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        {
+          "key": "Animation",
+          "value": "Animation"
+        },
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.7",
+      "imDbRatingVotes": "111226",
+      "metacriticRating": null,
+      "plot": "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
+      "stars": "Natsuki Hanae, Zach Aguilar, Abby Trott, Yoshitsugu Matsuoka",
+      "starList": [
+        {
+          "id": "tt9335498",
+          "name": "Natsuki Hanae"
+        },
+        {
+          "id": "tt9335498",
+          "name": "Zach Aguilar"
+        },
+        {
+          "id": "tt9335498",
+          "name": "Abby Trott"
+        },
+        {
+          "id": "tt9335498",
+          "name": "Yoshitsugu Matsuoka"
+        }
+      ]
+    },
+    {
+      "id": "tt10233448",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjNmNTQ2M2YtNTU5OC00OTMzLTgzNjktNWQyMTlhMGM3OTA5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_Ratio0.7041_AL_.jpg",
+      "title": "Vinland Saga",
+      "description": "(2019– )",
+      "runtimeStr": "24 min",
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        {
+          "key": "Animation",
+          "value": "Animation"
+        },
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.8",
+      "imDbRatingVotes": "45655",
+      "metacriticRating": null,
+      "plot": "Thorfinn pursues a journey with his father's killer in order to take revenge and end his life in a duel as an honorable warrior and pay his father a homage.",
+      "stars": "Yûto Uemura, Mike Haimoto, Alejandro Saab, Kaiji Tang",
+      "starList": [
+        {
+          "id": "tt10233448",
+          "name": "Yûto Uemura"
+        },
+        {
+          "id": "tt10233448",
+          "name": "Mike Haimoto"
+        },
+        {
+          "id": "tt10233448",
+          "name": "Alejandro Saab"
+        },
+        {
+          "id": "tt10233448",
+          "name": "Kaiji Tang"
+        }
+      ]
+    },
+    {
+      "id": "tt7631058",
+      "image": "https://m.media-amazon.com/images/M/MV5BNTg3NjcxYzgtYjljNC00Y2I2LWE3YmMtOTliZTkwYTE1MmZiXkEyXkFqcGdeQXVyNTY4NDc5MDE@._V1_Ratio0.7857_AL_.jpg",
+      "title": "The Lord of the Rings: The Rings of Power",
+      "description": "(2022– )",
+      "runtimeStr": null,
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "6.9",
+      "imDbRatingVotes": "323869",
+      "metacriticRating": null,
+      "plot": "Epic drama set thousands of years before the events of J.R.R. Tolkien's 'The Hobbit' and 'The Lord of the Rings' follows an ensemble cast of characters, both familiar and new, as they confront the long-feared re-emergence of evil to Middle-earth.",
+      "stars": "Morfydd Clark, Ismael Cruz Cordova, Charlie Vickers, Markella Kavenagh",
+      "starList": [
+        {
+          "id": "tt7631058",
+          "name": "Morfydd Clark"
+        },
+        {
+          "id": "tt7631058",
+          "name": "Ismael Cruz Cordova"
+        },
+        {
+          "id": "tt7631058",
+          "name": "Charlie Vickers"
+        },
+        {
+          "id": "tt7631058",
+          "name": "Markella Kavenagh"
+        }
+      ]
+    },
+    {
+      "id": "tt14923244",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTAzMTIzZjQtYzAzZS00YTBiLThkYzgtMzZmZGVlNDkxZGVlXkEyXkFqcGdeQXVyMTU2Mjg2NjE2._V1_Ratio0.7041_AL_.jpg",
+      "title": "The Winchesters",
+      "description": "(2022– )",
+      "runtimeStr": "42 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "6.3",
+      "imDbRatingVotes": "6812",
+      "metacriticRating": null,
+      "plot": "An epic untold love story of John and Mary of how they not only saved their love but also the entire world.",
+      "stars": "Meg Donnelly, Drake Rodger, Nida Khurshid, Jojo Fleites",
+      "starList": [
+        {
+          "id": "tt14923244",
+          "name": "Meg Donnelly"
+        },
+        {
+          "id": "tt14923244",
+          "name": "Drake Rodger"
+        },
+        {
+          "id": "tt14923244",
+          "name": "Nida Khurshid"
+        },
+        {
+          "id": "tt14923244",
+          "name": "Jojo Fleites"
+        }
+      ]
+    },
+    {
+      "id": "tt7942796",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmZmYTk3ZGItN2ZlNC00ODg1LTg4YjktMjMzM2NlZGJkODRiXkEyXkFqcGdeQXVyMTUwMzM5ODkz._V1_Ratio0.6837_AL_.jpg",
+      "title": "Magnum P.I.",
+      "description": "(2018–2023)",
+      "runtimeStr": "43 min",
+      "genres": "Action, Adventure, Crime",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Crime",
+          "value": "Crime"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "6.1",
+      "imDbRatingVotes": "14787",
+      "metacriticRating": null,
+      "plot": "An ex-Navy SEAL returns from Afghanistan and uses his military skills to become a private investigator in Hawaii.",
+      "stars": "Jay Hernandez, Perdita Weeks, Zachary Knighton, Stephen Hill",
+      "starList": [
+        {
+          "id": "tt7942796",
+          "name": "Jay Hernandez"
+        },
+        {
+          "id": "tt7942796",
+          "name": "Perdita Weeks"
+        },
+        {
+          "id": "tt7942796",
+          "name": "Zachary Knighton"
+        },
+        {
+          "id": "tt7942796",
+          "name": "Stephen Hill"
+        }
+      ]
+    },
+    {
+      "id": "tt8178634",
+      "image": "https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_Ratio0.7449_AL_.jpg",
+      "title": "RRR",
+      "description": "(2022)",
+      "runtimeStr": "187 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "Not Rated",
+      "imDbRating": "7.9",
+      "imDbRatingVotes": "140460",
+      "metacriticRating": "83",
+      "plot": "A fictitious story about two legendary revolutionaries and their journey away from home before they started fighting for their country in the 1920s.",
+      "stars": "S.S. Rajamouli, N.T. Rama Rao Jr., Ram Charan, Ajay Devgn, Alia Bhatt",
+      "starList": [
+        {
+          "id": "tt8178634",
+          "name": "S.S. Rajamouli"
+        },
+        {
+          "id": "tt8178634",
+          "name": "N.T. Rama Rao Jr."
+        },
+        {
+          "id": "tt8178634",
+          "name": "Ram Charan"
+        },
+        {
+          "id": "tt8178634",
+          "name": "Ajay Devgn"
+        },
+        {
+          "id": "tt8178634",
+          "name": "Alia Bhatt"
+        }
+      ]
+    },
+    {
+      "id": "tt5180504",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2FiOWU4YzYtMzZiOS00MzcyLTlkOGEtOTgwZmEwMzAxMzA3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Witcher",
+      "description": "(2019– )",
+      "runtimeStr": "60 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "8.1",
+      "imDbRatingVotes": "510842",
+      "metacriticRating": null,
+      "plot": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+      "stars": "Henry Cavill, Freya Allan, Anya Chalotra, Mimi Ndiweni",
+      "starList": [
+        {
+          "id": "tt5180504",
+          "name": "Henry Cavill"
+        },
+        {
+          "id": "tt5180504",
+          "name": "Freya Allan"
+        },
+        {
+          "id": "tt5180504",
+          "name": "Anya Chalotra"
+        },
+        {
+          "id": "tt5180504",
+          "name": "Mimi Ndiweni"
+        }
+      ]
+    },
+    {
+      "id": "tt5171438",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjg1NTc2MDktZTU5Ni00OTZiLWIyNjQtN2FhNGY4MzAxNmZkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Star Trek: Discovery",
+      "description": "(2017–2024)",
+      "runtimeStr": "60 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.0",
+      "imDbRatingVotes": "125729",
+      "metacriticRating": null,
+      "plot": "Ten years before Kirk, Spock, and the Enterprise, the USS Discovery discovers new worlds and lifeforms as one Starfleet officer learns to understand all things alien.",
+      "stars": "Sonequa Martin-Green, Doug Jones, Anthony Rapp, Emily Coutts",
+      "starList": [
+        {
+          "id": "tt5171438",
+          "name": "Sonequa Martin-Green"
+        },
+        {
+          "id": "tt5171438",
+          "name": "Doug Jones"
+        },
+        {
+          "id": "tt5171438",
+          "name": "Anthony Rapp"
+        },
+        {
+          "id": "tt5171438",
+          "name": "Emily Coutts"
+        }
+      ]
+    },
+    {
+      "id": "tt12327578",
+      "image": "https://m.media-amazon.com/images/M/MV5BYWNlYmZkZjQtNjU5OS00YTNkLWJmOTEtYmZiMmUwZGI3NTM3XkEyXkFqcGdeQXVyMTM2NTIwMDIw._V1_Ratio0.6837_AL_.jpg",
+      "title": "Star Trek: Strange New Worlds",
+      "description": "(2022– )",
+      "runtimeStr": "52 min",
+      "genres": "Action, Adventure, Sci-Fi",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Sci-Fi",
+          "value": "Sci-Fi"
+        }
+      ],
+      "contentRating": "TV-PG",
+      "imDbRating": "8.2",
+      "imDbRatingVotes": "34640",
+      "metacriticRating": null,
+      "plot": "A prequel to Star Trek: The Original Series, the show will follow the crew of the USS Enterprise under Captain Christopher Pike.",
+      "stars": "Melissa Navia, Anson Mount, Ethan Peck, Jess Bush",
+      "starList": [
+        {
+          "id": "tt12327578",
+          "name": "Melissa Navia"
+        },
+        {
+          "id": "tt12327578",
+          "name": "Anson Mount"
+        },
+        {
+          "id": "tt12327578",
+          "name": "Ethan Peck"
+        },
+        {
+          "id": "tt12327578",
+          "name": "Jess Bush"
+        }
+      ]
+    },
+    {
+      "id": "tt16030542",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGFlN2Y1OTQtMjBhMy00ODE0LTk0OTctMWFkMjkyZjJkYWE4XkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Recruit",
+      "description": "(2022– )",
+      "runtimeStr": "55 min",
+      "genres": "Action, Adventure, Crime",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Crime",
+          "value": "Crime"
+        }
+      ],
+      "contentRating": "TV-MA",
+      "imDbRating": "7.4",
+      "imDbRatingVotes": "32247",
+      "metacriticRating": null,
+      "plot": "Follows a lawyer at the CIA who gets entangled in dangerous international power politics when a former asset threatens to expose the nature of her long-term relationship with the agency.",
+      "stars": "Noah Centineo, Fivel Stewart, Laura Haddock, Aarti Mann",
+      "starList": [
+        {
+          "id": "tt16030542",
+          "name": "Noah Centineo"
+        },
+        {
+          "id": "tt16030542",
+          "name": "Fivel Stewart"
+        },
+        {
+          "id": "tt16030542",
+          "name": "Laura Haddock"
+        },
+        {
+          "id": "tt16030542",
+          "name": "Aarti Mann"
+        }
+      ]
+    },
+    {
+      "id": "tt5626028",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGZmYjdjN2UtNjAwZi00YmEyLWFhNTEtNjM1OTc5ODg0MGEyXkEyXkFqcGdeQXVyMTA1NjQyNjkw._V1_Ratio0.7245_AL_.jpg",
+      "title": "My Hero Academia",
+      "description": "(2016– )",
+      "runtimeStr": "24 min",
+      "genres": "Animation, Action, Adventure",
+      "genreList": [
+        {
+          "key": "Animation",
+          "value": "Animation"
+        },
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "8.4",
+      "imDbRatingVotes": "67034",
+      "metacriticRating": null,
+      "plot": "A superhero-loving boy without any powers is determined to enroll in a prestigious hero academy and learn what it really means to be a hero.",
+      "stars": "Daiki Yamashita, Justin Briner, Nobuhiko Okamoto, Ayane Sakura",
+      "starList": [
+        {
+          "id": "tt5626028",
+          "name": "Daiki Yamashita"
+        },
+        {
+          "id": "tt5626028",
+          "name": "Justin Briner"
+        },
+        {
+          "id": "tt5626028",
+          "name": "Nobuhiko Okamoto"
+        },
+        {
+          "id": "tt5626028",
+          "name": "Ayane Sakura"
+        }
+      ]
+    },
+    {
+      "id": "tt1951264",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Hunger Games: Catching Fire",
+      "description": "(2013)",
+      "runtimeStr": "146 min",
+      "genres": "Action, Adventure, Sci-Fi",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Sci-Fi",
+          "value": "Sci-Fi"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "7.5",
+      "imDbRatingVotes": "675236",
+      "metacriticRating": "76",
+      "plot": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
+      "stars": "Francis Lawrence, Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth, Philip Seymour Hoffman",
+      "starList": [
+        {
+          "id": "tt1951264",
+          "name": "Francis Lawrence"
+        },
+        {
+          "id": "tt1951264",
+          "name": "Jennifer Lawrence"
+        },
+        {
+          "id": "tt1951264",
+          "name": "Josh Hutcherson"
+        },
+        {
+          "id": "tt1951264",
+          "name": "Liam Hemsworth"
+        },
+        {
+          "id": "tt1951264",
+          "name": "Philip Seymour Hoffman"
+        }
+      ]
+    },
+    {
+      "id": "tt6111130",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTJkMGQxMGItMTlkOC00YWYzLWJhMDEtOTliNjcwNGM1MmFhXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_Ratio0.6837_AL_.jpg",
+      "title": "S.W.A.T.",
+      "description": "(2017– )",
+      "runtimeStr": "43 min",
+      "genres": "Action, Adventure, Crime",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Crime",
+          "value": "Crime"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.1",
+      "imDbRatingVotes": "25546",
+      "metacriticRating": null,
+      "plot": "Follows a locally born and bred S.W.A.T. sergeant and his team of highly-trained men and women as they solve crimes in Los Angeles.",
+      "stars": "Shemar Moore, Alex Russell, Kenny Johnson, Jay Harrington",
+      "starList": [
+        {
+          "id": "tt6111130",
+          "name": "Shemar Moore"
+        },
+        {
+          "id": "tt6111130",
+          "name": "Alex Russell"
+        },
+        {
+          "id": "tt6111130",
+          "name": "Kenny Johnson"
+        },
+        {
+          "id": "tt6111130",
+          "name": "Jay Harrington"
+        }
+      ]
+    },
+    {
+      "id": "tt1160419",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2FjNmEyNWMtYzM0ZS00NjIyLTg5YzYtYThlMGVjNzE1OGViXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6837_AL_.jpg",
+      "title": "Dune",
+      "description": "(2021)",
+      "runtimeStr": "155 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "8.0",
+      "imDbRatingVotes": "655981",
+      "metacriticRating": "74",
+      "plot": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+      "stars": "Denis Villeneuve, Timothée Chalamet, Rebecca Ferguson, Zendaya, Oscar Isaac",
+      "starList": [
+        {
+          "id": "tt1160419",
+          "name": "Denis Villeneuve"
+        },
+        {
+          "id": "tt1160419",
+          "name": "Timothée Chalamet"
+        },
+        {
+          "id": "tt1160419",
+          "name": "Rebecca Ferguson"
+        },
+        {
+          "id": "tt1160419",
+          "name": "Zendaya"
+        },
+        {
+          "id": "tt1160419",
+          "name": "Oscar Isaac"
+        }
+      ]
+    },
+    {
+      "id": "tt0120737",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "description": "(2001)",
+      "runtimeStr": "178 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "8.8",
+      "imDbRatingVotes": "1897338",
+      "metacriticRating": "92",
+      "plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "stars": "Peter Jackson, Elijah Wood, Ian McKellen, Orlando Bloom, Sean Bean",
+      "starList": [
+        {
+          "id": "tt0120737",
+          "name": "Peter Jackson"
+        },
+        {
+          "id": "tt0120737",
+          "name": "Elijah Wood"
+        },
+        {
+          "id": "tt0120737",
+          "name": "Ian McKellen"
+        },
+        {
+          "id": "tt0120737",
+          "name": "Orlando Bloom"
+        },
+        {
+          "id": "tt0120737",
+          "name": "Sean Bean"
+        }
+      ]
+    },
+    {
+      "id": "tt3291150",
+      "image": "https://m.media-amazon.com/images/M/MV5BNGIzNjU5YTctMDllZi00MGU2LWI5MTYtYzc4ZGFjNzY5ZjYyXkEyXkFqcGdeQXVyODY5NzkyMjA@._V1_Ratio2.5000_AL_.jpg",
+      "title": "The Expendables 4",
+      "description": "(2023)",
+      "runtimeStr": null,
+      "genres": "Action, Adventure, Thriller",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Thriller",
+          "value": "Thriller"
+        }
+      ],
+      "contentRating": null,
+      "imDbRating": null,
+      "imDbRatingVotes": null,
+      "metacriticRating": null,
+      "plot": null,
+      "stars": null,
+      "starList": null
+    },
+    {
+      "id": "tt0120616",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTJiYjBhZDgtMjhiOC00MTIzLThlNGMtMmI1NjIwM2M3YTI5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.6837_AL_.jpg",
+      "title": "The Mummy",
+      "description": "(1999)",
+      "runtimeStr": "124 min",
+      "genres": "Action, Adventure, Fantasy",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Fantasy",
+          "value": "Fantasy"
+        }
+      ],
+      "contentRating": "PG-13",
+      "imDbRating": "7.1",
+      "imDbRatingVotes": "438938",
+      "metacriticRating": "48",
+      "plot": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.",
+      "stars": "Stephen Sommers, Brendan Fraser, Rachel Weisz, John Hannah, Arnold Vosloo",
+      "starList": [
+        {
+          "id": "tt0120616",
+          "name": "Stephen Sommers"
+        },
+        {
+          "id": "tt0120616",
+          "name": "Brendan Fraser"
+        },
+        {
+          "id": "tt0120616",
+          "name": "Rachel Weisz"
+        },
+        {
+          "id": "tt0120616",
+          "name": "John Hannah"
+        },
+        {
+          "id": "tt0120616",
+          "name": "Arnold Vosloo"
+        }
+      ]
+    },
+    {
+      "id": "tt13802576",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2RiOGNmMmYtNmFlOC00MDg2LTk2YTItZWRmMmZjZjc1OGMxXkEyXkFqcGdeQXVyMTYxMDYwMzI2._V1_Ratio0.7857_AL_.jpg",
+      "title": "Lockwood & Co",
+      "description": "(2023– )",
+      "runtimeStr": "44 min",
+      "genres": "Action, Adventure, Drama",
+      "genreList": [
+        {
+          "key": "Action",
+          "value": "Action"
+        },
+        {
+          "key": "Adventure",
+          "value": "Adventure"
+        },
+        {
+          "key": "Drama",
+          "value": "Drama"
+        }
+      ],
+      "contentRating": "TV-14",
+      "imDbRating": "7.4",
+      "imDbRatingVotes": "16990",
+      "metacriticRating": null,
+      "plot": "A tiny startup, run by two teenage boys and a newly arrived, supremely psychically gifted girl, a renegade trio destined to unravel a mystery that will change the course of history.",
+      "stars": "Ruby Stokes, Cameron Chapman, Ali Hadji-Heshmati, Jack Bandeira",
+      "starList": [
+        {
+          "id": "tt13802576",
+          "name": "Ruby Stokes"
+        },
+        {
+          "id": "tt13802576",
+          "name": "Cameron Chapman"
+        },
+        {
+          "id": "tt13802576",
+          "name": "Ali Hadji-Heshmati"
+        },
+        {
+          "id": "tt13802576",
+          "name": "Jack Bandeira"
+        }
+      ]
+    }
+  ],
+  "errorMessage": null
+}

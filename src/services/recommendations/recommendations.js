@@ -10,7 +10,7 @@ function Recommendations() {
 
     useEffect(() => {
         getSimilarGeners();
-    }, [data]);
+    }, []);
 
     // Fetch data and get similar genres
     async function getSimilarGeners() {
@@ -123,4 +123,4 @@ function Recommendations() {
     return <>{console.log(data)}</>;
 }
 
-export default Recommendation;
+export default Recommendations;

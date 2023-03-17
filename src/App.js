@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import Recommendations from './components/Recommendations';
+
 function App() {
     return (
         <div className='App'>
@@ -16,6 +18,7 @@ function App() {
                     rel='noopener noreferrer'
                 >
                     Learn React
+                    <Recommendations />
                 </a>
             </header>
         </div>

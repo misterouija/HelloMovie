@@ -6,7 +6,7 @@ export default function Main() {
         <>
             <section className='py-5 px-2 bg-black bg-gradient'>
                 <MDBContainer>
-                    <MDBRow className=''>
+                    <MDBRow>
                         <MostPopularMovies />
                     </MDBRow>
                 </MDBContainer>

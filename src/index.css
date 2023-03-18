@@ -22,3 +22,6 @@ code {
 .componentTitle {
     color: #ff1d46;
 }
+.moreLink:hover {
+    cursor: pointer;
+}

@@ -170,7 +170,7 @@ export default function MostPopularMovies(props) {
                                                 }}
                                                 onClick={handleClick}
                                             >
-                                                More
+                                                More Details
                                             </span>
                                         </MDBCardBody>
                                     </MDBCard>

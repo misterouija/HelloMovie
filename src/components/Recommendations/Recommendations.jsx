@@ -6,7 +6,7 @@ import { MDBSpinner, MDBCol, MDBContainer, MDBRow } from 'mdb-react-ui-kit';
 const Recommendations = (props) => {
     const [data, setData] = useState('');
     const [genres, setGenres] = useState('');
-    const showId = props.id;
+    const [showId, setShowId] = useState(props.id);
     const groups = [
         'oscar_best_picture_nominees',
         'oscar_nominees',
@@ -17,6 +17,11 @@ const Recommendations = (props) => {
         'emmy_nominees',
         'golden_globe_nomine',
     ];
+
+    function handleClick(e) {
+        props.setId(e.target.attributes.name.value);
+        setShowId(e.target.attributes.name.value);
+    }
 
     function shuffle(array) {
         for (let i = array.length - 1; i > 0; i--) {
@@ -37,19 +42,17 @@ const Recommendations = (props) => {
                 console.log(error);
             }
         })();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
-
-    const groupSelect = shuffle(groups)[0];
-
+    }, [showId]);
+    //console.log(showId);
     useEffect(() => {
+        const groupSelect = shuffle(groups)[0];
         (async () => {
             try {
                 const response = await axios.get(
                     `https://imdb-api.com/API/AdvancedSearch/${apikey}?genres=${genres}&count=100&sort=num_votes,desc&groups=${groupSelect}`
                 );
                 const ratingsRequest = response.data.results
-                    .slice(0, 3)
+                    .slice(0, 6)
                     .map((i) =>
                         axios.get(
                             `https://imdb-api.com/en/API/Ratings/${apikey}/${i.id}`
@@ -110,10 +113,12 @@ const Recommendations = (props) => {
 
         return () => {};
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    }, [genres]);
+
+    let yourRecommendations;
 
     if (data.length === 0) {
-        return (
+        yourRecommendations = (
             <section className='py-5 px-2 bg-light bg-gradient'>
                 <MDBContainer>
                     <MDBRow>
@@ -131,28 +136,48 @@ const Recommendations = (props) => {
             </section>
         );
     } else {
-        return (
+        yourRecommendations = (
             <section className='py-5 px-2 bg-light bg-gradient'>
-                <h2 className='text-center'>Recommendations</h2>
+                <h2 className='text-center'>Your Recommendations</h2>
                 <MDBContainer>
                     <MDBRow>
                         {data.map((i) => {
                             return (
                                 <MDBCol
-                                    sm='5'
                                     md='4'
                                     xl='2'
-                                    className='g-3'
+                                    className='g-3 col-6'
                                     key={i.data.id}
                                 >
-                                    <p>{i.data.title}</p>
-                                    <img
-                                        src={i.data.image}
-                                        alt={i.data.title}
-                                        width='200px'
-                                        className='rounded-7 responsive'
-                                    />
-                                    <p>Rating: {i.data.imDbRating}</p>
+                                    <div
+                                        className='bg-image hover-zoom rounded-5 h-100 recommendCard'
+                                        style={{ maxWidth: '22rem' }}
+                                        onClick={handleClick}
+                                    >
+                                        <img
+                                            src={i.data.image}
+                                            className='w-100'
+                                            alt={i.data.title}
+                                            name={i.data.id}
+                                        />
+                                        <div
+                                            className='position-absolute bottom-0 text-light w-100'
+                                            style={{
+                                                backgroundColor:
+                                                    'rgba(0, 0, 0, 1)',
+                                            }}
+                                        >
+                                            <p
+                                                className='p-2 m-0 fw-lighter'
+                                                style={{
+                                                    color: '#ff1d46',
+                                                    fontSize: '0.85em',
+                                                }}
+                                            >
+                                                {i.data.title}
+                                            </p>
+                                        </div>
+                                    </div>
                                 </MDBCol>
                             );
                         })}
@@ -161,6 +186,8 @@ const Recommendations = (props) => {
             </section>
         );
     }
+
+    return <>{yourRecommendations}</>;
 };
 
 export default Recommendations;

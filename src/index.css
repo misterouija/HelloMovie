@@ -38,3 +38,7 @@ code {
 .myTab p {
     color: #ff1d46;
 }
+
+.recommendCard:hover {
+    cursor: pointer;
+}

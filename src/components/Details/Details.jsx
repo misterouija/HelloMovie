@@ -7,16 +7,17 @@ import Recommendations from '../Recommendations/Recommendations';
 
 export default function Details(props) {
     const [data, setData] = useState('');
+    const [id, setId] = useState(props.id);
 
     useEffect(() => {
         getDetails();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    }, [id]);
 
     async function getDetails() {
         try {
             const response = await axios.get(
-                `https://imdb-api.com/en/API/Title/${apikey}/${props.id}/FullActor,FullCast,Posters,Images,Trailer,Ratings`
+                `https://imdb-api.com/en/API/Title/${apikey}/${id}/FullActor,FullCast,Posters,Images,Trailer,Ratings`
             );
             const details = {
                 title: response.data.title,
@@ -101,13 +102,15 @@ export default function Details(props) {
                                 }}
                             />
                         </MDBCol>
-                        <MDBCol md='9' className='g-3'>
-                            <div className='ratio ratio-16x9'>{trailer}</div>
+                        <MDBCol md='9' className='g-3 '>
+                            <div className='ratio ratio-16x9 d-flex justify-content-center'>
+                                {trailer}
+                            </div>
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
             </section>
-            {/* <Recommendations id={props.id} /> */}
+            <Recommendations id={id} setId={setId} />
         </>
     );
 }

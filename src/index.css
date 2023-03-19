@@ -19,9 +19,22 @@ code {
 .cardText {
     margin-bottom: 5px !important;
 }
-.componentTitle {
+.componentTitle,
+.dText {
     color: #ff1d46;
+}
+.dText {
+    font-weight: bold;
 }
 .moreLink:hover {
     cursor: pointer;
+    color: #ff1d46;
+}
+
+.myTab {
+    background: transparent;
+}
+
+.myTab p {
+    color: #ff1d46;
 }

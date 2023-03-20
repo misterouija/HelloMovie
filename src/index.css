@@ -42,3 +42,44 @@ code {
 .recommendCard:hover {
     cursor: pointer;
 }
+
+/* Search */
+
+.searchForm {
+    position: relative;
+}
+
+.searchForm span {
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+    padding-left: 7px;
+    color: #9ca3af;
+}
+
+.left-pan i {
+    padding-left: 10px;
+}
+
+.searchForm input {
+    height: 35px;
+    text-indent: 20px;
+    border-radius: 0.75rem;
+    /* background-color: var(--mdb-white);
+    border: none; */
+}
+
+.searchForm input:focus {
+    box-shadow: 0px 1px 1px 1px rgba(255, 29, 70, 1);
+    /* background-color: #fff; */
+    border: 2px;
+    border-color: #ff1d46 !important;
+}
+.NavBar {
+    background-color: var(--mdb-gray-400);
+}

@@ -83,3 +83,24 @@ code {
 .NavBar {
     background-color: var(--mdb-gray-400);
 }
+
+/* Tabs */
+.nav-item {
+    background-color: black;
+    height: 50px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #616161;
+    background-color: transparent;
+    border-color: #ff1d46 !important;
+    height: 50px;
+}
+
+.nav-link {
+    height: 50px;
+}
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}

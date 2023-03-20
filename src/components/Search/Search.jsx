@@ -5,13 +5,20 @@ import {
     MDBModalHeader,
     MDBModalTitle,
     MDBModalBody,
-    MDBModalFooter,
+    MDBContainer,
+    MDBRow,
+    MDBCol,
 } from 'mdb-react-ui-kit';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 const Search = (props) => {
     const [data, setData] = useState('');
+    const [id, setId] = useState('');
+
+    function handleClick(e) {
+        setId(e.target.attributes.name);
+    }
 
     useEffect(() => {
         props.searchTerm === 'No searh entered'
@@ -30,10 +37,19 @@ const Search = (props) => {
 
     return (
         <>
-            <MDBModal show={props.show} onHide={props.handleClose}>
+            <MDBModal
+                show={props.show}
+                onHide={props.handleClose}
+                staticBackdrop
+            >
                 <MDBModalDialog size='xl'>
                     <MDBModalContent>
-                        <MDBModalHeader>
+                        <MDBModalHeader
+                            style={{
+                                backgroundColor: 'var(--mdb-gray-400)',
+                                backgroundImage: 'var(--bs-gradient)',
+                            }}
+                        >
                             <MDBModalTitle>Search Results</MDBModalTitle>
                             <button
                                 type='button'
@@ -41,45 +57,66 @@ const Search = (props) => {
                                 onClick={props.handleClose}
                             ></button>
                         </MDBModalHeader>
-                        <MDBModalBody>
-                            {!data ? (
-                                <div>
-                                    <h2 className='text-center'>
-                                        No results found
-                                    </h2>
-                                </div>
-                            ) : (
-                                Array.from(data).map((i) => (
-                                    <div key={i.imdbID}>
-                                        <h6>{i.Title}</h6>
-                                        <p>{i.Year}</p>
-
-                                        <img
-                                            src={i.Poster}
-                                            alt={i.Title}
-                                            width='150px'
-                                            className='mb-5'
-                                        />
+                        <MDBModalBody className='bg-black bg-gradient'>
+                            <MDBContainer>
+                                {!data ? (
+                                    <div>
+                                        <h2 className='text-center'>
+                                            No results found
+                                        </h2>
                                     </div>
-                                ))
-                            )}
+                                ) : (
+                                    Array.from(data).map((i) => {
+                                        return (
+                                            <MDBRow
+                                                justify-content-center
+                                                key={i.imdbID}
+                                                className='mb-3 p-2 rounded-5'
+                                                style={{
+                                                    backgroundColor:
+                                                        'rgba(255,255,255,0.1)',
+                                                }}
+                                            >
+                                                <MDBCol>
+                                                    <div className='d-flex justify-content-between'>
+                                                        <div className='flex1'>
+                                                            <img
+                                                                src={i.Poster}
+                                                                alt={i.Title}
+                                                                width='100px'
+                                                                className='rounded-5'
+                                                            />
+                                                        </div>
+                                                        <div className='flex-grow-1 mx-3'>
+                                                            <h5
+                                                                style={{
+                                                                    color: '#ff1d46',
+                                                                }}
+                                                            >
+                                                                {i.Title}
+                                                            </h5>
+                                                            <p className='text-light'>
+                                                                {i.Year}
+                                                            </p>
+                                                            <button
+                                                                type='button'
+                                                                name={i.imdbID}
+                                                                className='btn btn-sm bg-light'
+                                                                onClick={
+                                                                    handleClick
+                                                                }
+                                                            >
+                                                                Select
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </MDBCol>
+                                            </MDBRow>
+                                        );
+                                    })
+                                )}
+                            </MDBContainer>
                         </MDBModalBody>
-                        {/* <MDBModalFooter>
-                            <button
-                                type='button'
-                                className='btn btn-primary'
-                                onClick={props.handleClose}
-                            >
-                                Close
-                            </button>
-                            <button
-                                type='button'
-                                className='btn btn-primary'
-                                onClick={props.handleClose}
-                            >
-                                Save changes
-                            </button>
-                        </MDBModalFooter> */}
                     </MDBModalContent>
                 </MDBModalDialog>
             </MDBModal>

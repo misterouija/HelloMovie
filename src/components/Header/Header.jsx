@@ -17,11 +17,9 @@ export default function Header() {
         if (searchVal.length === 0 || re.test(searchVal) === false) {
             setSearchTerm('No searh entered');
         } else setSearchTerm(searchVal);
-
+        e.target.parentElement.parentElement.firstChild.value = '';
         setShow(true);
     }
-
-    console.log(searchTerm);
 
     return (
         <header>

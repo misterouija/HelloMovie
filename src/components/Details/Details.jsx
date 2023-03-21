@@ -10,7 +10,7 @@ export default function Details(props) {
     const [id, setId] = useState(props.id);
     useEffect(() => {
         getDetails();
-    }, [data]);
+    }, []);
 
     async function getDetails() {
         try {

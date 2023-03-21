@@ -16,10 +16,12 @@ import Details from '../Details/Details';
 const Search = (props) => {
     const [data, setData] = useState('');
     const [id, setId] = useState('');
+    // const [choice, setChoice] = (false);
 
     function handleClick(e) {
-        setId(e.target.attributes.name);
-        //props.handleClose();
+        console.log(e.target.attributes.name.value);
+        setId(e.target.attributes.name.value);
+        props.handleClose();
     }
 
     useEffect(() => {
@@ -37,10 +39,8 @@ const Search = (props) => {
               })();
     }, [props.searchTerm]);
 
-    console.log(id);
-
     if (id.length !== 0) {
-        return '<Details id={id} />';
+        return <Details id={id} />;
     }
 
     return (

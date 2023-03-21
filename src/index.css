@@ -1,13 +1,116 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.card-body {
+    padding: 10px !important;
+}
+
+.cardText {
+    margin-bottom: 5px !important;
+}
+.componentTitle,
+.dText {
+    color: #ff1d46;
+}
+.dText {
+    font-weight: bold;
+}
+.moreLink:hover {
+    cursor: pointer;
+    color: #ff1d46;
+}
+
+.myTab {
+    background: transparent;
+}
+
+.myTab p {
+    color: #ff1d46;
+}
+
+.recommendCard:hover {
+    cursor: pointer;
+}
+
+/* Search */
+
+.searchForm {
+    position: relative;
+}
+
+.searchForm span {
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+}
+
+.left-pan {
+    padding-left: 7px;
+    color: #9ca3af;
+}
+
+.left-pan i {
+    padding-left: 10px;
+}
+
+.searchForm input {
+    height: 35px;
+    text-indent: 20px;
+    border-radius: 0.75rem;
+    /* background-color: var(--mdb-white);
+    border: none; */
+}
+
+.searchForm input:focus {
+    box-shadow: 0px 1px 1px 1px rgba(255, 29, 70, 1);
+    /* background-color: #fff; */
+    border: 2px;
+    border-color: #ff1d46 !important;
+}
+.NavBar {
+    background-color: var(--mdb-gray-400);
+}
+
+/* Tabs */
+.nav-item {
+    background-color: black;
+    height: 50px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #616161;
+    background-color: transparent;
+    border-color: #ff1d46 !important;
+    height: 50px;
+}
+
+.nav-link {
+    height: 50px;
+}
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Hero */
+.heroButton {
+    background-color: #ff1d46 !important;
+    color: black !important;
+    margin-top: 50px;
+}
+.heroButton:hover {
+    background-color: #b22741 !important;
 }

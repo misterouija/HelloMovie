@@ -1,3 +1,3 @@
-const imdbApikey = 'k_tngmwe8s';
+const imdbApikey = '';
 
 export default imdbApikey;

@@ -12,12 +12,10 @@ import {
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Details from '../Details/Details';
-//import ReactDOM from 'react-dom/client';
 
 const Search = (props) => {
     const [data, setData] = useState('');
     const [id, setId] = useState('');
-    //const [choiceId, setChoiceId] = useState('')
 
     function handleClick(e) {
         setId(e.target.attributes.name);
@@ -39,8 +37,10 @@ const Search = (props) => {
               })();
     }, [props.searchTerm]);
 
+    console.log(id);
+
     if (id.length !== 0) {
-        return <Details id={id} />;
+        return '<Details id={id} />';
     }
 
     return (

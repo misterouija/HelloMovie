@@ -8,11 +8,9 @@ import Recommendations from '../Recommendations/Recommendations';
 export default function Details(props) {
     const [data, setData] = useState('');
     const [id, setId] = useState(props.id);
-
     useEffect(() => {
         getDetails();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [id]);
+    }, [data]);
 
     async function getDetails() {
         try {

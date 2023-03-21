@@ -104,3 +104,13 @@ code {
 .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2) !important;
 }
+
+/* Hero */
+.heroButton {
+    background-color: #ff1d46 !important;
+    color: black !important;
+    margin-top: 50px;
+}
+.heroButton:hover {
+    background-color: #b22741 !important;
+}

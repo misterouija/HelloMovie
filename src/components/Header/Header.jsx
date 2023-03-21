@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { MDBNavbar, MDBContainer } from 'mdb-react-ui-kit';
 import Search from '../Search/Search';
+import logo from '../../assets/hello-movie-logo.png';
 
 export default function Header() {
     const [show, setShow] = useState(false);
@@ -14,10 +15,21 @@ export default function Header() {
         e.preventDefault();
         const searchVal =
             e.target.parentElement.parentElement.firstChild.value.trim();
+
         if (searchVal.length === 0 || re.test(searchVal) === false) {
             setSearchTerm('No searh entered');
         } else setSearchTerm(searchVal);
         e.target.parentElement.parentElement.firstChild.value = '';
+        setShow(true);
+    }
+
+    function handleEnterKey(e) {
+        e.preventDefault();
+        const searchVal = e.target.value.trim();
+        if (searchVal.length === 0 || re.test(searchVal) === false) {
+            setSearchTerm('No searh entered');
+        } else setSearchTerm(searchVal);
+        e.target.value = '';
         setShow(true);
     }
 
@@ -34,20 +46,19 @@ export default function Header() {
                 <MDBContainer fluid>
                     <div className='d-flex flex-grow-1'>
                         <a className='navbar-brand mt-2 mt-lg-0' href='/'>
-                            <img
-                                src='https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp'
-                                height='15'
-                                alt='MDB Logo'
-                            />
+                            <img src={logo} height='15' alt='MDB Logo' />
                         </a>
                     </div>
                     <form className='searchForm flex-grow-1'>
                         <input
                             type='text'
                             className='form-control form-input'
-                            placeholder='Search your favorite movie'
+                            placeholder='Your favorite movie'
                             name='search'
                             role='search'
+                            onKeyDown={(e) =>
+                                e.key === 'Enter' && handleEnterKey(e)
+                            }
                         />
                         <span className='left-pan'>
                             <i
@@ -58,17 +69,17 @@ export default function Header() {
                         </span>
                     </form>
                     <div className='flex-grow-1'>
-                        <div style={{ width: '40px', height: '15px' }}></div>
+                        <div style={{ width: '94px', height: '15px' }}></div>
                     </div>
                 </MDBContainer>
             </MDBNavbar>
 
             <div
-                className='p-1 text-center bg-image'
+                className='text-center bg-image'
                 style={{
                     backgroundImage:
-                        "url('https://mdbootstrap.com/img/new/slides/041.webp')",
-                    height: 400,
+                        "url('https://cdn.pixabay.com/photo/2017/08/05/15/00/auditorium-2584269_960_720.jpg')",
+                    height: 800,
                 }}
             >
                 <div
@@ -81,13 +92,17 @@ export default function Header() {
                             <h4 className='mb-3'>
                                 A movie recommendation engine
                             </h4>
-                            <a
-                                className='btn btn-secondary btn-lg rounded-pill'
-                                href='#!'
-                                role='button'
+                            <button
+                                className='btn btn-secondary btn-lg rounded-pill heroButton'
+                                type='button'
+                                onClick={() => {
+                                    document
+                                        .querySelector('input[name="search"]')
+                                        .focus();
+                                }}
                             >
-                                Call to action
-                            </a>
+                                Start discovering
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -114,7 +114,11 @@ export default function MostPopularMovies(props) {
         </>
     );
 
-    const mostPop = (
+    if (clicked) {
+        return <Details id={id} />;
+    }
+
+    return (
         <section className='py-5 px-2 bg-black bg-gradient'>
             <MDBContainer>
                 <MDBRow>
@@ -181,10 +185,4 @@ export default function MostPopularMovies(props) {
             </MDBContainer>
         </section>
     );
-
-    const details = <Details id={id} />;
-
-    const render = clicked ? details : mostPop;
-
-    return <>{render}</>;
 }

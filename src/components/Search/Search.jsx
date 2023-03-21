@@ -11,13 +11,17 @@ import {
 } from 'mdb-react-ui-kit';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import Details from '../Details/Details';
+//import ReactDOM from 'react-dom/client';
 
 const Search = (props) => {
     const [data, setData] = useState('');
     const [id, setId] = useState('');
+    //const [choiceId, setChoiceId] = useState('')
 
     function handleClick(e) {
         setId(e.target.attributes.name);
+        //props.handleClose();
     }
 
     useEffect(() => {
@@ -34,6 +38,10 @@ const Search = (props) => {
                   }
               })();
     }, [props.searchTerm]);
+
+    if (id.length !== 0) {
+        return <Details id={id} />;
+    }
 
     return (
         <>
@@ -69,7 +77,6 @@ const Search = (props) => {
                                     Array.from(data).map((i) => {
                                         return (
                                             <MDBRow
-                                                justify-content-center
                                                 key={i.imdbID}
                                                 className='mb-3 p-2 rounded-5'
                                                 style={{

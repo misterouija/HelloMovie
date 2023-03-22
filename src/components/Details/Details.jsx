@@ -1,18 +1,17 @@
 import { MDBCol } from 'mdb-react-ui-kit';
 import axios from 'axios';
-import apikey from '../Recommendations/apikey';
+import apikey from '../../apikeys';
 import { useEffect, useState } from 'react';
 import { MDBContainer, MDBRow } from 'mdb-react-ui-kit';
-import Recommendations from '../Recommendations/Recommendations';
 
 export default function Details(props) {
     const [data, setData] = useState('');
-    const [id, setId] = useState(props.id);
-    useEffect(() => {
-        getDetails();
-    }, [data]);
 
-    async function getDetails() {
+    useEffect(() => {
+        getDetails(props.searchId || props.mostPopId);
+    }, [props.searchId, props.mostPopId]);
+
+    async function getDetails(id) {
         try {
             const response = await axios.get(
                 `https://imdb-api.com/en/API/Title/${apikey}/${id}/FullActor,FullCast,Posters,Images,Trailer,Ratings`
@@ -108,7 +107,7 @@ export default function Details(props) {
                     </MDBRow>
                 </MDBContainer>
             </section>
-            <Recommendations id={id} setId={setId} />
+            {/* <Recommendations id={id} setId={setId} /> */}
         </>
     );
 }

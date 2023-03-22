@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-import apikey from '../Recommendations/apikey';
-import Details from '../Details/Details';
+import apikey from '../../apikeys';
+// import Details from '../Details/Details';
 
 import {
     MDBCard,
@@ -19,8 +19,8 @@ import {
 
 export default function MostPopularMovies(props) {
     const [data, setData] = useState('');
-    const [clicked, setClicked] = useState(false);
-    const [id, setId] = useState('');
+    // const [clicked, setClicked] = useState(false);
+    // const [id, setId] = useState('');
     const [tabActive, setTabActive] = useState('tab1');
     const [endPoint, setEndPoint] = useState('MostPopularMovies');
     const [title, setTitle] = useState('Most Popular Movies');
@@ -49,8 +49,10 @@ export default function MostPopularMovies(props) {
     };
 
     function handleClick(e) {
-        setClicked(true);
-        setId(e.target.attributes.name.value);
+        props.setMostPopId(e.target.attributes.name.value);
+        props.setShowDetails(true);
+        props.setShowPop(false);
+        props.setShowRecommendations(true);
     }
 
     function handleTabClick(value) {
@@ -76,50 +78,53 @@ export default function MostPopularMovies(props) {
     }
 
     const tabs = (
-        <>
-            <MDBTabs fill className='mb-1 myTab'>
-                <MDBTabsItem>
-                    <MDBTabsLink
-                        onClick={() => handleTabClick('tab1')}
-                        active={tabActive === 'tab1'}
-                    >
-                        <p>Most Popular Movies</p>
-                    </MDBTabsLink>
-                </MDBTabsItem>
-                <MDBTabsItem>
-                    <MDBTabsLink
-                        onClick={() => handleTabClick('tab2')}
-                        active={tabActive === 'tab2'}
-                    >
-                        <p>Top Movies</p>
-                    </MDBTabsLink>
-                </MDBTabsItem>
-                <MDBTabsItem>
-                    <MDBTabsLink
-                        onClick={() => handleTabClick('tab3')}
-                        active={tabActive === 'tab3'}
-                    >
-                        <p>Most Popular TV Shows</p>
-                    </MDBTabsLink>
-                </MDBTabsItem>
-                <MDBTabsItem>
-                    <MDBTabsLink
-                        onClick={() => handleTabClick('tab4')}
-                        active={tabActive === 'tab4'}
-                    >
-                        <p>Top TV Shows</p>
-                    </MDBTabsLink>
-                </MDBTabsItem>
-            </MDBTabs>
-        </>
+        <section>
+            <MDBRow>
+                <MDBCol>
+                    <MDBTabs fill className='mb-1 myTab'>
+                        <MDBTabsItem>
+                            <MDBTabsLink
+                                onClick={() => handleTabClick('tab1')}
+                                active={tabActive === 'tab1'}
+                            >
+                                <p>Most Popular Movies</p>
+                            </MDBTabsLink>
+                        </MDBTabsItem>
+                        <MDBTabsItem>
+                            <MDBTabsLink
+                                onClick={() => handleTabClick('tab2')}
+                                active={tabActive === 'tab2'}
+                            >
+                                <p>Top Movies</p>
+                            </MDBTabsLink>
+                        </MDBTabsItem>
+                        <MDBTabsItem>
+                            <MDBTabsLink
+                                onClick={() => handleTabClick('tab3')}
+                                active={tabActive === 'tab3'}
+                            >
+                                <p>Most Popular TV Shows</p>
+                            </MDBTabsLink>
+                        </MDBTabsItem>
+                        <MDBTabsItem>
+                            <MDBTabsLink
+                                onClick={() => handleTabClick('tab4')}
+                                active={tabActive === 'tab4'}
+                            >
+                                <p>Top TV Shows</p>
+                            </MDBTabsLink>
+                        </MDBTabsItem>
+                    </MDBTabs>
+                </MDBCol>
+            </MDBRow>
+        </section>
     );
 
-    if (clicked) {
-        return <Details id={id} />;
-    }
-
     return (
-        <section className='py-5 px-2 bg-black bg-gradient'>
+        <section
+            className='py-5 px-2 bg-black bg-gradient'
+            style={{ height: 'calc(100vh - 309px)' }}
+        >
             <MDBContainer>
                 <MDBRow>
                     <h2 className='componentTitle text-center mb-3'>{title}</h2>

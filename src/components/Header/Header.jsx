@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MDBNavbar, MDBContainer } from 'mdb-react-ui-kit';
 import Search from '../Search/Search';
-import logo from '../../assets/hello-movie-logo.png';
+import logo from '../../assets/images/hello-movie-logo.png';
 
 export default function Header(props) {
     const [show, setShow] = useState(false);

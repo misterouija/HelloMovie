@@ -2,6 +2,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import apikey from '../../apikeys';
 import { MDBSpinner, MDBCol, MDBContainer, MDBRow } from 'mdb-react-ui-kit';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Recommendations = (props) => {
     const [data, setData] = useState('');
@@ -31,6 +33,12 @@ const Recommendations = (props) => {
         }
         return array;
     }
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+        });
+    }, [showId]);
 
     useEffect(() => {
         (async () => {
@@ -140,7 +148,7 @@ const Recommendations = (props) => {
     return (
         <section className='py-5 px-2 bg-light bg-gradient'>
             <h2 className='text-center'>Your Recommendations</h2>
-            <MDBContainer>
+            <MDBContainer data-aos='fade-up'>
                 <MDBRow>
                     {data.map((i) => {
                         return (

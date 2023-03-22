@@ -1,4 +1,13 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Hero = (props) => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+        });
+    }, []);
     return (
         <div
             className='text-center bg-image vh-100'
@@ -10,6 +19,7 @@ const Hero = (props) => {
             <div
                 className='mask'
                 style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
+                data-aos='fade-up'
             >
                 <div className='d-flex justify-content-center align-items-center h-100'>
                     <div className='text-white'>

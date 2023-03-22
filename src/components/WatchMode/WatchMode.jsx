@@ -18,11 +18,12 @@ const WatchMode = () => {
                 console.log(error);
             }
         })();
-    }, []);
+    }, [data]);
 
     console.log(data);
 
     return (
+        // <></>
         <section>
             <div className='container'>
                 <div className='row row-cols-12 g-1'>
@@ -30,7 +31,7 @@ const WatchMode = () => {
                         return (
                             <div className='col'>
                                 <a href={i.web_url}>
-                                    <div className='card p-1 h-100 bg-primary bg-gradient'>
+                                    <div className='card p-1 bg-dark'>
                                         <span>{i.name}</span>
                                         <span>{i.format}</span>
                                         <span>${i.price}</span>

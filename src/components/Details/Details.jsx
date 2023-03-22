@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 import { MDBContainer, MDBRow } from 'mdb-react-ui-kit';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import WatchMode from '../WatchMode/WatchMode';
 
 export default function Details(props) {
     const [data, setData] = useState('');

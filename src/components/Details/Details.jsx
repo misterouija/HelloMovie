@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { MDBContainer, MDBRow } from 'mdb-react-ui-kit';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import getWatchInfo from '../WatchInfo/Watchinfo';
 
 export default function Details(props) {
     const [data, setData] = useState('');
@@ -35,6 +36,7 @@ export default function Details(props) {
                 stars: response.data.stars,
                 contentRating: response.data.contentRating,
                 rating: response.data.imDbRating,
+                watchLinks: await getWatchInfo(id, 'us')
             };
 
             setData(details);

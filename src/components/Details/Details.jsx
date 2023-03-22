@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { MDBContainer, MDBRow } from 'mdb-react-ui-kit';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import WatchMode from '../WatchMode/WatchMode';
 
 export default function Details(props) {
     const [data, setData] = useState('');
@@ -114,8 +115,12 @@ export default function Details(props) {
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
+                <MDBContainer>
+                    <MDBRow>
+                        <MDBCol>{/* <WatchMode /> */}</MDBCol>
+                    </MDBRow>
+                </MDBContainer>
             </section>
-            {/* <Recommendations id={id} setId={setId} /> */}
         </>
     );
 }

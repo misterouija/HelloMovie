@@ -46,7 +46,9 @@ const Recommendations = (props) => {
                 const response = await axios.get(
                     `https://imdb-api.com/en/API/Title/${apikey}/${props.searchId}`
                 );
-                setGenres(response.data.genres);
+                setGenres(
+                    shuffle(response.data.genres.split(', ')).slice(0, 2)
+                );
             } catch (error) {
                 console.log(error);
             }
@@ -54,11 +56,12 @@ const Recommendations = (props) => {
     }, [props.searchId]);
 
     useEffect(() => {
-        const groupSelect = shuffle(groups)[4];
         (async () => {
             try {
                 const response = await axios.get(
-                    `https://imdb-api.com/API/AdvancedSearch/${apikey}?genres=${genres}&count=100&sort=num_votes,desc&groups=${groupSelect}`
+                    `https://imdb-api.com/API/AdvancedSearch/${apikey}?genres=${genres}&count=100&sort=num_votes,desc&groups=${
+                        shuffle(groups)[2]
+                    }`
                 );
                 const ratingsRequest = response.data.results
                     .slice(0, 6)

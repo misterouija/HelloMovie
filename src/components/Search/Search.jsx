@@ -26,7 +26,7 @@ const Search = (props) => {
     }
 
     useEffect(() => {
-        props.searchTerm === 'No searh entered'
+        props.searchTerm === 'No search entered'
             ? setData(false)
             : (async function () {
                   try {

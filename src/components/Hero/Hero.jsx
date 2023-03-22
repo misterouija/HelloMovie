@@ -23,7 +23,8 @@ const Hero = (props) => {
             >
                 <div className='d-flex justify-content-center align-items-center h-100'>
                     <div className='text-white'>
-                        <h1 className='mb-3'>Welcome to HelloMovie</h1>
+                        <h1 className='mb-3'>Welcome to
+                        <span style={{color: 'red'}}> Hello</span>Movie</h1>
                         <h4 className='mb-3'>A movie recommendation engine</h4>
                         <button
                             className='btn btn-secondary btn-lg rounded-pill heroButton'

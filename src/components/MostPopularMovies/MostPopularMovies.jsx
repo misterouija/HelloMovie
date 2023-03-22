@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import apikey from '../../apikeys';
-// import Details from '../Details/Details';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import {
     MDBCard,
@@ -19,11 +20,15 @@ import {
 
 export default function MostPopularMovies(props) {
     const [data, setData] = useState('');
-    // const [clicked, setClicked] = useState(false);
-    // const [id, setId] = useState('');
     const [tabActive, setTabActive] = useState('tab1');
     const [endPoint, setEndPoint] = useState('MostPopularMovies');
     const [title, setTitle] = useState('Most Popular Movies');
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+        });
+    }, []);
 
     useEffect(() => {
         getMostPopular();
@@ -125,9 +130,9 @@ export default function MostPopularMovies(props) {
             className='py-5 px-2 bg-black bg-gradient'
             style={{ height: 'calc(100vh - 309px)' }}
         >
-            <MDBContainer>
+            <MDBContainer data-aos='zoom-in'>
                 <MDBRow>
-                    <h2 className='componentTitle text-center mb-3'>{title}</h2>
+                    <h2 className='componentTitle text-center mb-5'>{title}</h2>
                     {tabs}
 
                     {Array.from(data)

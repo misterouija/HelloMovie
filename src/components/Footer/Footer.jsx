@@ -103,10 +103,7 @@ export default function Footer() {
 
                 <section className='mb-4'>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Sunt distinctio earum repellat quaerat voluptatibus
-                        placeat nam, commodi optio pariatur est quia magnam eum
-                        harum corrupti dicta, aliquam sequi voluptate quas.
+                    Do you want to stay updated on the latest Movies, TV Shows and insights in the world of entertainment? If you are the kind of person who likes to discover new shows for your personal entertainment then you should definately sign up for our weekly newsletter!
                     </p>
                 </section>
             </MDBContainer>

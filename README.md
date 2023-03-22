@@ -1,3 +1,5 @@
+![HelloMovie](./assets/images/hello-movie-logo.jpg)
+
 # HelloMovie
 A Movie and TV recommendation application, created using React 18. 
 

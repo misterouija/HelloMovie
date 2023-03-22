@@ -47,8 +47,9 @@ Contributions are what make the open source community such an amazing place to l
 
 Current contributors are: 
 
-[![](https://avatars.githubusercontent.com/u/17514172?size=50)](https://github.com/remarkablemark)
-
+[![](https://avatars.githubusercontent.com/u/17514172?size=50)](https://github.com/misterouija)
+[![](https://avatars.githubusercontent.com/u/116763735?size=50)](https://github.com/GitJackL)
+[![](https://avatars.githubusercontent.com/u/57220285?size=50)](https://github.com/Computastar)
 
 ## Tests
 
@@ -65,11 +66,11 @@ To run test type the following command/s:
 ## Site
 GitHub Public Repo
 
-https://github.com/Computastar/React-Portfolio
+https://github.com/Computastar/HelloMovie
 
-GitHub Page Link
+Netlify ite
 
-https://computastar.github.io/React-Portfolio/
+https://hellomovie.netlify.app
 
 ## Questions
 

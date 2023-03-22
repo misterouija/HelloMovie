@@ -31,7 +31,7 @@ const Search = (props) => {
             : (async function () {
                   try {
                       const response = await axios.get(
-                          `https://www.omdbapi.com/?s=${props.searchTerm}&apikey=263d22d8`
+                          `https://www.omdbapi.com/?s=${props.searchTerm}&apikey=3c818ab4`
                       );
                       setData(response.data.Search);
                   } catch (error) {

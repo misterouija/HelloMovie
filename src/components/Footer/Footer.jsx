@@ -18,18 +18,7 @@ export default function Footer() {
                         color='light'
                         floating
                         className='m-1'
-                        href='#!'
-                        role='button'
-                    >
-                        <MDBIcon fab icon='facebook-f' />
-                    </MDBBtn>
-
-                    <MDBBtn
-                        outline
-                        color='light'
-                        floating
-                        className='m-1'
-                        href='#!'
+                        href='https://twitter.com/home'
                         role='button'
                     >
                         <MDBIcon fab icon='twitter' />
@@ -40,7 +29,7 @@ export default function Footer() {
                         color='light'
                         floating
                         className='m-1'
-                        href='#!'
+                        href='https://www.instagram.com/'
                         role='button'
                     >
                         <MDBIcon fab icon='instagram' />
@@ -51,7 +40,7 @@ export default function Footer() {
                         color='light'
                         floating
                         className='m-1'
-                        href='#!'
+                        href='https://www.linkedin.com/'
                         role='button'
                     >
                         <MDBIcon fab icon='linkedin-in' />
@@ -62,7 +51,7 @@ export default function Footer() {
                         color='light'
                         floating
                         className='m-1'
-                        href='#!'
+                        href='https://github.com/Computastar/HelloMovie/'
                         role='button'
                     >
                         <MDBIcon fab icon='github' />
@@ -103,7 +92,11 @@ export default function Footer() {
 
                 <section className='mb-4'>
                     <p>
-                    Do you want to stay updated on the latest Movies, TV Shows and insights in the world of entertainment? If you are the kind of person who likes to discover new shows for your personal entertainment then you should definately sign up for our weekly newsletter!
+                        Do you want to stay updated on the latest Movies, TV
+                        Shows and get insights in the world of entertainment? If
+                        you are the kind of person who likes to discover new
+                        shows for your personal entertainment, then you should
+                        definately sign up for our weekly newsletter!
                     </p>
                 </section>
             </MDBContainer>
@@ -114,7 +107,10 @@ export default function Footer() {
             >
                 © 2023 Copyright:
                 <a className='text-white mx-1' href='/'>
-                    HelloMovie
+                    <span style={{ fontFamily: 'trebuchet ms' }}>
+                        <span style={{ color: '#ff1d46' }}>Hello</span>
+                        <span style={{ color: '#000' }}>Movie</span>
+                    </span>
                 </a>
             </div>
         </MDBFooter>

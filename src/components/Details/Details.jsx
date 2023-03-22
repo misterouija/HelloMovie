@@ -116,8 +116,12 @@ export default function Details(props) {
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
+                <MDBContainer>
+                    <MDBRow>
+                        <MDBCol>{/* <WatchMode /> */}</MDBCol>
+                    </MDBRow>
+                </MDBContainer>
             </section>
-            {/* <Recommendations id={id} setId={setId} /> */}
         </>
     );
 }

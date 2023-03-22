@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import Details from './components/Details/Details';
+import WatchMode from './components/WatchMode/WatchMode';
 import Recommendations from './components/Recommendations/Recommendations';
 import { useState } from 'react';
 
@@ -15,6 +16,7 @@ function App() {
     const [showHero, setShowHero] = useState(true);
     const [showDetails, setShowDetails] = useState(false);
     const [showRecommendations, setShowRecommendations] = useState(false);
+    const [showWatchMode, setShowWatchMode] = useState(false);
     const [mostPopId, setMostPopId] = useState('');
     const [recommendId, setRecommendId] = useState('');
     const [searchId, setSearchId] = useState('');
@@ -56,6 +58,7 @@ function App() {
             ) : (
                 <></>
             )}
+            {showWatchMode ? <WatchMode /> : <></>}
             {showRecommendations ? (
                 <Recommendations
                     id={recommendId}

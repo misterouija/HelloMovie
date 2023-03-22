@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# HelloMovie
+A Movie and TV recommendation application, created using React 18. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ## Description
+  This application is built in React 18. Its purpose is to suggest recommendations for movies or TVs shows based on a free text search you input. 
 
-## Available Scripts
 
-In the project directory, you can run:
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Installation](#installation) 
 
-### `npm test`
+* [Usage](#usage) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Contributors](#contributors) 
 
-### `npm run build`
+* [Tests](#tests) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Questions](#questions) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [License](#license)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Screenshot](#screenhot)
+ 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To install this app follow the steps below: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  1. Git Clone [repo] - To Clone Repository.
+  2. Npm Install - To Download Dependencies.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Usage 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Follow the steps below to use this app: 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  *  Npm Start -Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors 
 
-### Analyzing the Bundle Size
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Current contributors are: 
 
-### Making a Progressive Web App
+[![](https://avatars.githubusercontent.com/u/17514172?size=50)](https://github.com/misterouija)
+[![](https://avatars.githubusercontent.com/u/116763735?size=50)](https://github.com/GitJackL)
+[![](https://avatars.githubusercontent.com/u/57220285?size=50)](https://github.com/Computastar)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tests
 
-### Advanced Configuration
+To run test type the following command/s: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  The test were pre created using Jest. The package.jsaon is update to run these scripts by running:
+  
+  None
+  
+## Netlify Status
 
-### Deployment
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8373b768-80f0-41af-98e2-ef0cdc1bbb87/deploy-status)](https://app.netlify.com/sites/hellomovie/deploys)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Site
+GitHub Public Repo
 
-### `npm run build` fails to minify
+https://github.com/Computastar/HelloMovie
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Netlify ite
+
+https://hellomovie.netlify.app
+
+## Questions
+
+Any question, get intouch: 
+
+  Github: [Computastar](https://github.com/Computastar)
+
+ 
+## License
+
+  MIT License
+
+  Distributed under the MIT License See LICENSE.txt for more information
+  
+## Screenshot
+![React Portfolio](./src/assets/screenshot.jpeg)
+

@@ -18,6 +18,10 @@ A Movie and TV recommendation application, created using React 18.
 
 * [Technologies](#technologies)
 
+* [Packages](#packages)
+
+* [API](#api)
+
 * [Tests](#tests) 
 
 * [Questions](#questions) 
@@ -68,6 +72,33 @@ Current contributors are:
   <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original-wordmark.svg" title="bootstrap" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="github" width="40" height="40"/>&nbsp;
 </div>
+
+## Packages
+ * fontawesome-free@6.3.0
+ * jest-dom@5.16.5
+ * react@13.4.0 
+ * user-event@13.5.0 
+ * aos@2.3.4
+ * axios@1.3.4 
+ * bootstrap@5.2.3 
+ * mdb-react-ui-kit@5.1.0 
+ * movie-trailer@3.0.0 
+ * react-bootstrap@2.7.2 
+ * react-dom@18.2.0 
+ * react-icons@4.8.0 
+ * react-native-public-ip@1.0.2 
+ * react-player@2.12.0 
+ * react-router-bootstrap@0.26.2 
+ * react-router-dom@6.9.0 
+ * react-scripts@5.0.1 
+ * react@18.2.0 
+ * web-vitals@2.1.4 
+
+## API
+ * [OMDB](https://www.omdbapi.com/)
+ * [IMDB](https://imdb-api.com/API)
+ * [Streaming Availability](https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability/details)
+ * [TMDb](https://www.themoviedb.org/documentation/api)
 
 ## Tests
 

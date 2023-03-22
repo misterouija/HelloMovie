@@ -52,9 +52,10 @@ Contributions are what make the open source community such an amazing place to l
 
 Current contributors are: 
 
-[![](https://avatars.githubusercontent.com/u/17514172?size=50&fit=cover&mask=circle&maxage=7d)](https://github.com/misterouija)
-[![](https://avatars.githubusercontent.com/u/116763735?size=50&fit=cover&mask=circle&maxage=7d)](https://github.com/GitJackL)
-[![](https://avatars.githubusercontent.com/u/57220285?size=50&fit=cover&mask=circle&maxage=7d)](https://github.com/Computastar)
+[![](https://avatars.githubusercontent.com/u/17514172?s=50&v=4&fit=cover&mask=circle&maxage=7d)](https://github.com/misterouija)
+[![](https://avatars.githubusercontent.com/u/116763735?s=50&v=4&fit=cover&mask=circle&maxage=7d)](https://github.com/GitJackL)
+[![](https://avatars.githubusercontent.com/u/57220285?s=50&v=4&fit=cover&mask=circle&maxage=7d)](https://github.com/Computastar)
+
 
 ## Tests
 

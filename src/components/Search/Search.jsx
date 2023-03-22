@@ -11,16 +11,17 @@ import {
 } from 'mdb-react-ui-kit';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import Details from '../Details/Details';
 
 const Search = (props) => {
     const [data, setData] = useState('');
-    const [id, setId] = useState('');
-    // const [choice, setChoice] = (false);
+    //const [id, setId] = useState('');
 
     function handleClick(e) {
-        console.log(e.target.attributes.name.value);
-        setId(e.target.attributes.name.value);
+        //console.log(e.target.attributes.name.value);
+        props.setSearchId(e.target.attributes.name.value);
+        props.setShowHero(false);
+        props.setShowRecommendations(true);
+        props.setShowDetails(true);
         props.handleClose();
     }
 
@@ -38,10 +39,6 @@ const Search = (props) => {
                   }
               })();
     }, [props.searchTerm]);
-
-    if (id.length !== 0) {
-        return <Details id={id} />;
-    }
 
     return (
         <>

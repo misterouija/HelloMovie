@@ -7,7 +7,9 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import Details from './components/Details/Details';
+import WatchMode from './components/WatchMode/WatchMode';
 import Recommendations from './components/Recommendations/Recommendations';
+//import Watchinfo from './components/WatchInfo/Watchinfo';
 import { useState } from 'react';
 
 function App() {
@@ -15,9 +17,12 @@ function App() {
     const [showHero, setShowHero] = useState(true);
     const [showDetails, setShowDetails] = useState(false);
     const [showRecommendations, setShowRecommendations] = useState(false);
+    const [showWatchMode, setShowWatchMode] = useState(false);
+    //const [showWatchInfo, setShowWatchInfo] = useState(false);
     const [mostPopId, setMostPopId] = useState('');
     const [recommendId, setRecommendId] = useState('');
     const [searchId, setSearchId] = useState('');
+    //const [watchModeId, setWatchModeId] = useState('');
 
     return (
         <>
@@ -52,15 +57,25 @@ function App() {
                     setRecommendId={setRecommendId}
                     setSearchId={setSearchId}
                     searchId={searchId}
+                    showWatchMode={showWatchMode}
+                    setShowWatchMode={setShowWatchMode}
                 />
             ) : (
                 <></>
             )}
+            {showWatchMode ? (
+                <WatchMode searchId={searchId} mostPopId={mostPopId} />
+            ) : (
+                <></>
+            )}
+            {/* {showWatchInfo ? <Watchinfo /> : <></>} */}
             {showRecommendations ? (
                 <Recommendations
                     id={recommendId}
                     setSearchId={setSearchId}
+                    mostPopId={mostPopId}
                     searchId={searchId}
+                    setShowWatchMode={setShowWatchMode}
                 />
             ) : (
                 <></>

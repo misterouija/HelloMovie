@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { MDBNavbar, MDBContainer } from 'mdb-react-ui-kit';
 import Search from '../Search/Search';
-import logo from '../../assets/hello-movie-logo.png';
+import logo from '../../assets/images/hello-movie-logo.png';
 
 export default function Header(props) {
     const [show, setShow] = useState(false);
@@ -17,7 +17,7 @@ export default function Header(props) {
             e.target.parentElement.parentElement.firstChild.value.trim();
 
         if (searchVal.length === 0 || re.test(searchVal) === false) {
-            setSearchTerm('No searh entered');
+            setSearchTerm('No search entered');
         } else setSearchTerm(searchVal);
         e.target.parentElement.parentElement.firstChild.value = '';
         setShow(true);
@@ -27,7 +27,7 @@ export default function Header(props) {
         e.preventDefault();
         const searchVal = e.target.value.trim();
         if (searchVal.length === 0 || re.test(searchVal) === false) {
-            setSearchTerm('No searh entered');
+            setSearchTerm('No search entered');
         } else setSearchTerm(searchVal);
         e.target.value = '';
         setShow(true);
@@ -53,7 +53,7 @@ export default function Header(props) {
                         <input
                             type='text'
                             className='form-control form-input'
-                            placeholder='Your favorite movie'
+                            placeholder='Your favourite movie'
                             name='search'
                             role='search'
                             onKeyDown={(e) =>

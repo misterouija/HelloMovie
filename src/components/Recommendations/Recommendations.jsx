@@ -2,6 +2,8 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import apikey from '../../apikeys';
 import { MDBSpinner, MDBCol, MDBContainer, MDBRow } from 'mdb-react-ui-kit';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Recommendations = (props) => {
     const [data, setData] = useState('');
@@ -22,6 +24,8 @@ const Recommendations = (props) => {
     function handleClick(e) {
         props.setSearchId(e.target.attributes.name.value);
         setShowId(e.target.attributes.name.value);
+        document.querySelector('#details').scrollIntoView();
+        props.setShowWatchMode(false);
     }
 
     function shuffle(array) {
@@ -33,24 +37,35 @@ const Recommendations = (props) => {
     }
 
     useEffect(() => {
+        AOS.init({
+            duration: 2000,
+        });
+    }, [showId]);
+
+    useEffect(() => {
         (async () => {
             try {
                 const response = await axios.get(
-                    `https://imdb-api.com/en/API/Title/${apikey}/${props.searchId}`
+                    `https://imdb-api.com/en/API/Title/${apikey}/${
+                        props.mostPopId || props.searchId
+                    }`
                 );
-                setGenres(response.data.genres);
+                setGenres(
+                    shuffle(response.data.genres.split(', ')).slice(0, 2)
+                );
             } catch (error) {
                 console.log(error);
             }
         })();
-    }, [props.searchId]);
+    }, [props.searchId, props.mostPopId]);
 
     useEffect(() => {
-        const groupSelect = shuffle(groups)[4];
         (async () => {
             try {
                 const response = await axios.get(
-                    `https://imdb-api.com/API/AdvancedSearch/${apikey}?genres=${genres}&count=100&sort=num_votes,desc&groups=${groupSelect}`
+                    `https://imdb-api.com/API/AdvancedSearch/${apikey}?genres=${genres}&count=100&sort=num_votes,desc&groups=${
+                        shuffle(groups)[2]
+                    }`
                 );
                 const ratingsRequest = response.data.results
                     .slice(0, 6)
@@ -138,9 +153,12 @@ const Recommendations = (props) => {
     }
 
     return (
-        <section className='py-5 px-2 bg-light bg-gradient'>
+        <section
+            className='py-5 px-2 bg-light bg-gradient'
+            id='recommendations'
+        >
             <h2 className='text-center'>Your Recommendations</h2>
-            <MDBContainer>
+            <MDBContainer data-aos='fade-up'>
                 <MDBRow>
                     {data.map((i) => {
                         return (

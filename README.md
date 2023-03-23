@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+![HelloMovie](./src/assets/images/hello-movie-logo.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Movie and TV recommendation application, created using React 18. 
 
-## Available Scripts
+  ## Description
+  This application is built in React 18. Its purpose is to suggest recommendations for movies or TVs shows based on a free text search you input. 
 
-In the project directory, you can run:
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* [Installation](#installation) 
 
-### `npm test`
+* [Usage](#usage) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Contributors](#contributors) 
 
-### `npm run build`
+* [Technologies](#technologies)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Packages](#packages)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [API](#api)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Tests](#tests) 
 
-### `npm run eject`
+* [Questions](#questions) 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* [License](#license)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [Screenshot](#screenshot)
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To install this app follow the steps below: 
 
-## Learn More
+  1. Git Clone [repo] - To Clone Repository.
+  2. Npm Install - To Download Dependencies.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage 
 
-### Code Splitting
+Follow the steps below to use this app: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  *  Npm Start -Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Analyzing the Bundle Size
+  *  Enter free text search in the Search bar at the top of the page, click the magnifing icon.
+  
+  * This will display a modal of top 10 results, click the Select button of the item you are most interested in.
+  
+  * The detail of the item will be displayed in the main page and below that the recommedations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributors 
 
-### Making a Progressive Web App
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Current contributors are: 
 
-### Advanced Configuration
+[![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/17514172?s=50&v=4&fit=cover&mask=circle&maxage=7d)](https://github.com/misterouija)
+[![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/116763735?s=50&v=4&fit=cover&mask=circle&maxage=7d)](https://github.com/GitJackL)
+[![avatar](https://images.weserv.nl/?url=avatars.githubusercontent.com/u/57220285?s=50&v=4&fit=cover&mask=circle&maxage=7d)](https://github.com/Computastar)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Technologies
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original-wordmark.svg" title="bootstrap" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" title="github" width="40" height="40"/>&nbsp;
+</div>
 
-### Deployment
+## Packages
+ * fontawesome-free@6.3.0
+ * jest-dom@5.16.5
+ * react@13.4.0 
+ * user-event@13.5.0 
+ * aos@2.3.4
+ * axios@1.3.4 
+ * bootstrap@5.2.3 
+ * mdb-react-ui-kit@5.1.0 
+ * movie-trailer@3.0.0 
+ * react-bootstrap@2.7.2 
+ * react-dom@18.2.0 
+ * react-icons@4.8.0 
+ * react-native-public-ip@1.0.2 
+ * react-player@2.12.0 
+ * react-router-bootstrap@0.26.2 
+ * react-router-dom@6.9.0 
+ * react-scripts@5.0.1 
+ * react@18.2.0 
+ * web-vitals@2.1.4 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## API
+ * [OMDB](https://www.omdbapi.com/)
+ * [IMDB](https://imdb-api.com/API)
+ * [Streaming Availability](https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability/details)
+ * [TMDb](https://www.themoviedb.org/documentation/api)
 
-### `npm run build` fails to minify
+## Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To run test type the following command/s: 
+
+  The test were pre created using Jest. The package.json is update to run these scripts by running:
+  
+  None
+  
+## Netlify Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8373b768-80f0-41af-98e2-ef0cdc1bbb87/deploy-status)](https://app.netlify.com/sites/hellomovie/deploys)
+
+## Site
+GitHub Public Repo
+
+https://github.com/Computastar/HelloMovie
+
+Netlify ite
+
+https://hellomovie.netlify.app
+
+## Questions
+
+Any question, get intouch: 
+
+  Github: [Computastar](https://github.com/Computastar)
+
+ 
+## License
+
+  MIT License
+
+  Distributed under the MIT License See LICENSE.txt for more information
+  
+## Screenshot
+![HelloMovie](./src/assets/images/hellomovie_screenshot.jpeg)
+

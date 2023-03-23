@@ -3,9 +3,18 @@ import axios from 'axios';
 import apikey from '../../apikeys';
 import { useEffect, useState } from 'react';
 import { MDBContainer, MDBRow } from 'mdb-react-ui-kit';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+//import getWatchInfo from '../WatchInfo/Watchinfo';
 
 export default function Details(props) {
     const [data, setData] = useState('');
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+        });
+    }, [props.searchId, props.mostPopId]);
 
     useEffect(() => {
         getDetails(props.searchId || props.mostPopId);
@@ -27,6 +36,7 @@ export default function Details(props) {
                 stars: response.data.stars,
                 contentRating: response.data.contentRating,
                 rating: response.data.imDbRating,
+                //watchLinks: await getWatchInfo(id, 'us')
             };
 
             setData(details);
@@ -51,8 +61,8 @@ export default function Details(props) {
 
     return (
         <>
-            <section className='py-5 px-2 bg-black bg-gradient'>
-                <MDBContainer>
+            <section className='py-5 px-2 bg-black bg-gradient' id='details'>
+                <MDBContainer data-aos='zoom-in'>
                     <MDBRow>
                         <h2 className='componentTitle text-center'>
                             {data.title}
@@ -106,8 +116,43 @@ export default function Details(props) {
                         </MDBCol>
                     </MDBRow>
                 </MDBContainer>
+                <MDBContainer>
+                    <MDBRow>
+                        <MDBCol className='justify-content-center d-flex'>
+                            {
+                                <div className='py-3 d-flex gap-3'>
+                                    <button
+                                        className='btn btn-secondary'
+                                        onClick={() => {
+                                            props.setShowWatchMode(true);
+                                            setTimeout(() => {
+                                                document
+                                                    .querySelector('#watchmode')
+                                                    .scrollIntoView();
+                                            }, 1000);
+                                        }}
+                                    >
+                                        Where can I watch this?
+                                    </button>
+                                    <button
+                                        className='btn btn-secondary'
+                                        onClick={() => {
+                                            document
+                                                .querySelector(
+                                                    '#recommendations'
+                                                )
+                                                .scrollIntoView();
+                                            props.setShowWatchMode(false);
+                                        }}
+                                    >
+                                        See more recommendations
+                                    </button>
+                                </div>
+                            }
+                        </MDBCol>
+                    </MDBRow>
+                </MDBContainer>
             </section>
-            {/* <Recommendations id={id} setId={setId} /> */}
         </>
     );
 }

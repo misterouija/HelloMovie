@@ -1,3 +1,3 @@
-const imdbApikey = 'pk_ripua2vxz2jxm369p';
+const imdbApikey = 'pk_8bemj58toejn144iq';
 
 export default imdbApikey;

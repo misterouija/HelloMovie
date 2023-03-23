@@ -24,6 +24,8 @@ const Recommendations = (props) => {
     function handleClick(e) {
         props.setSearchId(e.target.attributes.name.value);
         setShowId(e.target.attributes.name.value);
+        document.querySelector('#details').scrollIntoView();
+        props.setShowWatchMode(false);
     }
 
     function shuffle(array) {
@@ -44,7 +46,9 @@ const Recommendations = (props) => {
         (async () => {
             try {
                 const response = await axios.get(
-                    `https://imdb-api.com/en/API/Title/${apikey}/${props.searchId}`
+                    `https://imdb-api.com/en/API/Title/${apikey}/${
+                        props.mostPopId || props.searchId
+                    }`
                 );
                 setGenres(
                     shuffle(response.data.genres.split(', ')).slice(0, 2)
@@ -53,7 +57,7 @@ const Recommendations = (props) => {
                 console.log(error);
             }
         })();
-    }, [props.searchId]);
+    }, [props.searchId, props.mostPopId]);
 
     useEffect(() => {
         (async () => {
@@ -149,7 +153,10 @@ const Recommendations = (props) => {
     }
 
     return (
-        <section className='py-5 px-2 bg-light bg-gradient'>
+        <section
+            className='py-5 px-2 bg-light bg-gradient'
+            id='recommendations'
+        >
             <h2 className='text-center'>Your Recommendations</h2>
             <MDBContainer data-aos='fade-up'>
                 <MDBRow>
